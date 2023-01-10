@@ -1,0 +1,5 @@
+{
+  "Title": "Supplier",
+  "Route": "/supasdasdplier/*",
+  "Entry": "@modules/Supplier/pages"
+}

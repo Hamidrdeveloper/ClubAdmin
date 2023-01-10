@@ -1,0 +1,5 @@
+{
+  "Title": "CustomTariff",
+  "Route": "/settsdings/cussddstom-tariffs/*",
+  "Entry": "@modules/CustomTariff/pages"
+}

@@ -1,0 +1,5 @@
+{
+  "Title": "Barcode",
+  "Route": "/products/barcosdsddes/*",
+  "Entry": "@modules/Barcode/pages"
+}

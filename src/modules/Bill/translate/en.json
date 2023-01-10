@@ -1,0 +1,35 @@
+{
+  "Title": "Bill",
+  "Title_other": "Bills",
+
+  "Field": {
+    "Vat": "Vat",
+    "IBAN": "IBAN",
+    "Swift": "Swift",
+    "Buyer": "Buyer",
+    "Hidden": "Hidden",
+    "Factor": "Factor",
+    "BillId": "Bill Id",
+    "Preview": "Preview",
+    "OrderId": "Order Id",
+    "PayDate": "Pay Date",
+    "ExecuteAt": "Execute At",
+    "PartnerId": "Partner ID",
+    "TaxNumber": "Tax Number",
+    "Regenerate": "Regenerate",
+    "CareerStep": "Career Step",
+    "GroupPoint": "Group Point",
+    "VatPercent": "Vat Percent",
+    "PositionType": "Position Type",
+    "PaymentMethod": "Payment Method",
+    "NextCareerStep": "Next Career Step",
+    "1to4GenPoint": "1 to 4 Generations",
+    "Gen1Point": "First Generation Point",
+    "PromotionExecuted": "Promotion Executed",
+    "BillNumberGenerated": "Bill Number Generated",
+    "CalculationCareerStep": "Calculation Career Step",
+    "RegenerationConfirmWarning": "Regenerate Selected Bill?"
+  },
+  "IsPaidConfirmation": "Are you sure you want to change Paid Field?",
+  "IsApprovedConfirmation": "Are you sure you want to change Is Approved Field? This operation cannot be restored after it is done"
+}

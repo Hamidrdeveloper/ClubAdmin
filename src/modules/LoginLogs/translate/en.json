@@ -1,0 +1,5 @@
+{
+    "Title": "Login Log",
+    "Title_other": "Login Logs",
+    "Field": { "UserAgent": "User Agent", "Provider": "Provider" }
+}

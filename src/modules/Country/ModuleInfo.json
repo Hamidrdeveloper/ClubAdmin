@@ -1,0 +1,5 @@
+{
+  "Title": "Vibrate",
+  "Route": "/Chants/Vibrate/*",
+  "Entry": "@modules/Country/pages"
+}

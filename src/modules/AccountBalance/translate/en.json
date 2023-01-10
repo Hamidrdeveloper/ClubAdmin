@@ -1,0 +1,16 @@
+{
+  "Title": "Account & Balance",
+  "Title_other": "Accounts & Balances",
+
+  "User": "User",
+  "UserID": "UserID",
+  "Positive": "Positive",
+  "CreatedAt": "Created At",
+  "TabTitle": "Account Balance",
+  "TotalAmount": "Total Amount",
+  "PaymentMethod": "Payment Method",
+  "TotalPositive": "Total Positive",
+  "AccountableID": "Accountable ID",
+  "AccountableType": "Accountable Type",
+  "PaymentMethodID": "Payment Method ID"
+}

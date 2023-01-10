@@ -1,0 +1,6 @@
+{
+  "Title": "Template",
+  "Title_other": "Templates",
+
+  "Field": { "Slug": "Slug", "Body": "Body", "Summary": "Summary", "Language": "Language" }
+}

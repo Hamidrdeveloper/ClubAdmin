@@ -1,0 +1,13 @@
+{
+  "Title": "DPD",
+  "Title_other": "DPD",
+
+  "Field": {
+    "CustomerNumber": "Customer Number",
+    "DelisId": "Delis Id",
+    "MessageLanguage": "Message Language",
+    "Password": "Password",
+    "SaturdayDelivery": "Saturday Delivery",
+    "Staging": "Staging"
+  }
+}

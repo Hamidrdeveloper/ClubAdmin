@@ -1,0 +1,9 @@
+{
+  "widget_id": 1,
+  "file_id": 6,
+  "is_active": true,
+  "translate": [
+    { "locale": "aa", "title": "title aa", "content": "content aa" },
+    { "locale": "ab", "title": "title ab", "content": "content ab" }
+  ]
+}

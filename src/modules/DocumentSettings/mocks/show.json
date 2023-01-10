@@ -1,0 +1,213 @@
+{
+  "id": 6,
+  "document_type_id": 7,
+  "logo_id": 1,
+  "data": [
+    {
+      "header": {
+        "margin-left": 10,
+        "margin-right": 12,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "is-active": true
+      },
+      "footer": {
+        "margin-left": 100,
+        "margin-right": 120,
+        "font-weight": "bold",
+        "font-size": 20,
+        "is-active": true
+      },
+      "logo": {
+        "margin-left": 10,
+        "margin-right": 12,
+        "margin-top": 12,
+        "margin-bottom": 10,
+        "width": 100,
+        "is-active": true
+      },
+      "body": {
+        "margin-left": -1,
+        "margin-right": 12,
+        "font-weight": "normal",
+        "font-size": 12,
+        "is-active": true
+      }
+    }
+  ],
+  "mandatory_elements": [
+    {
+      "order_id": {
+        "label": "order_id",
+        "width": 30,
+        "priority": 2,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "date": {
+        "label": "date",
+        "width": 25,
+        "priority": 2,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": false
+      },
+      "order_on": {
+        "label": "order_on",
+        "width": 10,
+        "priority": 3,
+        "font-weight": "bold",
+        "font-size": 12,
+        "is-active": true
+      },
+      "customer_id": {
+        "label": "customer_id",
+        "width": 10,
+        "priority": 4,
+        "font-weight": "bold",
+        "font-size": 12,
+        "is-active": true
+      },
+      "currency": {
+        "label": "currency",
+        "width": 30,
+        "priority": 6,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "referrer": {
+        "label": "referrer",
+        "width": 30,
+        "priority": 7,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "customer_class": {
+        "label": "customer_class",
+        "width": 20,
+        "priority": 8,
+        "font-weight": "normal",
+        "font-size": 16,
+        "text-align": "left",
+        "is-active": true
+      },
+      "vat_number": {
+        "label": "vat_number",
+        "width": 20,
+        "priority": 6,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": false
+      },
+      "own_vat_number": {
+        "label": "own_vat_number",
+        "width": 20,
+        "priority": 9,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": false
+      },
+      "invoice_number": {
+        "label": "invoice_number",
+        "width": 20,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "payment_method": {
+        "label": "payment_method",
+        "width": 20,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      }
+    }
+  ],
+  "stock_unit_elements": [
+    {
+      "position": {
+        "label": "position",
+        "width": 30,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "price": {
+        "label": "price",
+        "width": 25,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": false
+      },
+      "quantity": {
+        "label": "quantity",
+        "width": 10,
+        "priority": 1,
+        "font-weight": "bold",
+        "font-size": 12,
+        "is-active": true
+      },
+      "item_id": {
+        "label": "item_id",
+        "width": 10,
+        "priority": 1,
+        "font-weight": "bold",
+        "font-size": 12,
+        "is-active": true
+      },
+      "item_name": {
+        "label": "item_name",
+        "width": 30,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "header": {
+        "width": 30,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": true
+      },
+      "VAT": {
+        "label": "VAT",
+        "width": 20,
+        "priority": 1,
+        "font-weight": "normal",
+        "font-size": 16,
+        "text-align": "left",
+        "is-active": true
+      },
+      "discount": {
+        "label": "discount",
+        "width": 20,
+        "priority": 1,
+        "font-weight": "bolder",
+        "font-size": 12,
+        "text-align": "center",
+        "is-active": false
+      }
+    }
+  ],
+  "translate": [{ "document_setting_template_id": 6, "locale": "en", "name": "invoice-test-document" }]
+}

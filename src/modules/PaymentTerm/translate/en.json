@@ -1,0 +1,10 @@
+{
+  "Title": "Payment Term",
+  "Title_other": "Payment Terms",
+
+  "Field": {
+    "DueDays": "Due Days",
+    "Description": "Description",
+    "DiscountPercentage": "Discount Percentage"
+  }
+}

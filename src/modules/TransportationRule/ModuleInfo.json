@@ -1,0 +1,5 @@
+{
+  "Title": "TransportationRule",
+  "Route": "shiasdpping/transportation-rules/*",
+  "Entry": "@modules/TransportationRule/pages"
+}

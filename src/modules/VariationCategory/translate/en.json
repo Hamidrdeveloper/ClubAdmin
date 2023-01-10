@@ -1,0 +1,6 @@
+{
+  "Title": "Product Variation Category",
+  "Title_other": "Product Variation Categories",
+
+  "Field": { "Parent": "Parent", "Language": "Language", "Subdomain": "Subdomain" }
+}

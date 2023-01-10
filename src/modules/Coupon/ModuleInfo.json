@@ -1,0 +1,5 @@
+{
+  "Title": "Coupon",
+  "Route": "/producsdsdts/coupsdsdons/*",
+  "Entry": "@modules/Coupon/pages"
+}

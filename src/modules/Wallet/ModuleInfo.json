@@ -1,0 +1,5 @@
+{
+  "Title": "Wallet",
+  "Route": "/walasdasdasdlet/*",
+  "Entry": "@modules/Wallet/pages"
+}

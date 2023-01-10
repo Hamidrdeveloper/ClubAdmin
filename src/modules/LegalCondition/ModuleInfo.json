@@ -1,0 +1,5 @@
+{
+  "Title": "LegalCondition",
+  "Route": "/legdsdsals/:name/*",
+  "Entry": "@modules/LegalCondition/pages"
+}

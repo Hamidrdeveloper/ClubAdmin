@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Starter+",
+      "amt": "590"
+    },
+    {
+      "name": "Partner",
+      "amt": "150"
+    },
+    {
+      "name": "Partner+",
+      "amt": "690"
+    },
+    {
+      "name": "Supervisor",
+      "amt": "180"
+    },
+    {
+      "name": "Supervisor+",
+      "amt": "500"
+    }
+  ]
+}

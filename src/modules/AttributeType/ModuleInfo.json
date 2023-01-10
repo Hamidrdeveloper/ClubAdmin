@@ -1,0 +1,5 @@
+{
+  "Title": "ConnectChant",
+  "Route": "/Chants/ConnectChant/*",
+  "Entry": "@modules/AttributeType/pages"
+}

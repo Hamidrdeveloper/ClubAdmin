@@ -1,0 +1,14 @@
+{
+  "Title": "Comment",
+  "Title_other": "Comments",
+
+  "List": {
+    "Table": {
+      "ProductVariation": "Product Variation",
+      "UserProfile": "User Profile",
+      "Comment": "Comment",
+      "ReplyTo": "Reply To",
+      "Approve": "Approve"
+    }
+  }
+}

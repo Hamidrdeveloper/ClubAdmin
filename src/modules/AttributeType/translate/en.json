@@ -1,0 +1,19 @@
+{
+  "Title": "Chant Connect",
+  "Title_other": "Chant Connect",
+
+  "Position": "Position",
+  "Subdomain": "Subdomain",
+  "SelectableType": "Selectable Type",
+  "PictureConnectable": "Picture Connectable",
+
+  "Field": {
+    "Partner": "Partner",
+    "SubDomain": "Sub Domain",
+    "ProductVariationCategory": "Product Variation Category"
+  },
+  "Tabs": {
+    "Settings": "Settings",
+    "Options": "Options"
+  }
+}

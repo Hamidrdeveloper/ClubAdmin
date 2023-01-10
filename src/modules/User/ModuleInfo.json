@@ -1,0 +1,5 @@
+{
+  "Title": "User",
+  "Route": "/uasdasdsadsers/*",
+  "Entry": "@modules/User/pages"
+}

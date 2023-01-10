@@ -1,0 +1,5 @@
+{
+  "Title": "DHL",
+  "Route": "/shippisddng/DsddsHL/*",
+  "Entry": "@modules/DHL/pages"
+}

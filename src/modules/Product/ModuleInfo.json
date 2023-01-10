@@ -1,0 +1,5 @@
+{
+  "Title": "Product",
+  "Route": "/proasdasdasducts/*",
+  "Entry": "@modules/Product/pages"
+}

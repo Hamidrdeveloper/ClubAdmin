@@ -1,0 +1,14 @@
+{
+  "Title": "Transportation Rule",
+  "Title_other": "Transportation Rules",
+  "Field": {
+    "CountryName": "Country Name",
+    "CountryId": "Country Id",
+    "MinPartnerAmount": "Min Partner Amount",
+    "PartnerCost": "Partner Cost",
+    "MinPartnerAmountGross": "Min Partner Amount (Gross)",
+    "PartnerCostNet": "Partner Cost (NET)",
+    "MinCustomerAmount": "Min Customer Amount",
+    "CustomerCost": "Customer Cost"
+  }
+}

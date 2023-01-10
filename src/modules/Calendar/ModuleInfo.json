@@ -1,0 +1,5 @@
+{
+  "Title": "Caledndar",
+  "Route": "/calesdsdsdndar/*",
+  "Entry": "@modules/Calendar/pages"
+}

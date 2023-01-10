@@ -1,0 +1,10 @@
+{
+  "Title": "Order",
+  "Route": "/orsdders/*",
+  "Route_Order": "/orsdsaders/order-sale",
+  "Route_Credit": "/ordesdrs/credit",
+  "Route_Subscription": "/ordsders/subscription",
+  "Route_Purchase": "/orderdsds/purchase",
+  "Route_Partner" : "/ordersds/partner",
+  "Entry": "@modules/Order/pages"
+}

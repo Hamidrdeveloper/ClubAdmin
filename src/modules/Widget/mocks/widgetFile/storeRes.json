@@ -1,0 +1,40 @@
+{
+  "id": 2,
+  "widget_id": 1,
+  "file_id": 7,
+  "file_path": "/storage/ssfstg.solutions-apps.com/uploads/image/f8dc4ec973fa8c6942ad1fbda309352af8c2bbe7.png",
+  "is_active": true,
+  "data": null,
+  "created_at": "2022-01-18T09:03:11.000000Z",
+  "title": "title aa",
+  "content": "content aa",
+  "file": {
+    "id": 7,
+    "extension": "pdf",
+    "enabled": true,
+    "name": "9362e60fc39773a114c9a56b37802778",
+    "type": "public",
+    "root_file": {
+      "id": 7,
+      "path": "/storage/ssfstg.solutions-apps.com/uploads/image/f8dc4ec973fa8c6942ad1fbda309352af8c2bbe7.png",
+      "size": 36251,
+      "mime_type": "application/pdf"
+    },
+    "created_at": "2022-01-09T11:33:05.000000Z",
+    "updated_at": "2022-01-09T11:33:05.000000Z"
+  },
+  "translate": [
+    {
+      "widget_file_id": 2,
+      "locale": "aa",
+      "title": "title aa",
+      "content": "content aa"
+    },
+    {
+      "widget_file_id": 2,
+      "locale": "ab",
+      "title": "title ab",
+      "content": "content ab"
+    }
+  ]
+}

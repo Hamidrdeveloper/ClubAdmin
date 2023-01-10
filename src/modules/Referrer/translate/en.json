@@ -1,0 +1,6 @@
+{
+  "Title": "Chant Type",
+  "Title_other": "Chant Type",
+  "Table": { "Owner": "Owner", "Slug": "Slug", "IsBasic": "Is Basic" },
+  "Field": { "Owner": "Owner", "Slug": "Slug" }
+}

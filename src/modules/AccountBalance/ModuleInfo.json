@@ -1,0 +1,5 @@
+{
+  "Title": "AccountBalance",
+  "Route": "/accounts/balancesdssd/*",
+  "Entry": "@modules/AccountBalance/pages"
+}

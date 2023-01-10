@@ -1,0 +1,5 @@
+{
+  "Title": "CustomerStep",
+  "Route": "/customsdsaersteps/*",
+  "Entry": "@modules/CustomerStep/pages"
+}

@@ -1,0 +1,477 @@
+[
+  {
+    "id": 3,
+    "language_id": 2,
+    "country_id": 1,
+    "career_step_id": 1,
+    "customer_step_id": null,
+    "file_id": 2329,
+    "image_id": 2317,
+    "image_path": "/storage/localhost/uploads/image/7bc6208f26a13808d4b8bd3b1e35635e89b959f1.png",
+    "name": "amuzeshi 1",
+    "is_active": true,
+    "created_at": "2022-05-14T11:44:06.000000Z",
+    "image": {
+      "id": 2317,
+      "extension": "png",
+      "enabled": true,
+      "name": "Copied Image.png",
+      "type": "public",
+      "root_file": {
+        "id": 1247,
+        "path": "/storage/localhost/uploads/image/7bc6208f26a13808d4b8bd3b1e35635e89b959f1.png",
+        "size": 17712,
+        "mime_type": "image/png"
+      },
+      "created_at": "2022-05-15T20:17:22.000000Z",
+      "updated_at": "2022-05-15T20:17:22.000000Z"
+    },
+    "language": {
+      "id": 2,
+      "title": "Abkhazian",
+      "locale": "ab",
+      "is_ltr": true,
+      "is_default": false,
+      "is_active": true
+    },
+    "country": {
+      "id": 1,
+      "name": "Afghanistan",
+      "default_warranty_days": 14,
+      "max_tax_free_trade": null,
+      "max_small_business_trade": null,
+      "is_eeu": false,
+      "iso2": "AF",
+      "iso3": "AFG",
+      "is_active": true,
+      "is_default": false,
+      "timezone": null,
+      "currency": {
+        "name": "Euro",
+        "id": 49,
+        "ratio": 1,
+        "is_default": true,
+        "symbol": "€",
+        "iso3": "EUR",
+        "is_active": true,
+        "translate": [
+          {
+            "currency_id": 49,
+            "locale": "en",
+            "name": "Euro"
+          }
+        ]
+      },
+      "vats": [],
+      "translate": [
+        {
+          "country_id": 1,
+          "locale": "de",
+          "name": "Afghanistan"
+        },
+        {
+          "country_id": 1,
+          "locale": "en",
+          "name": "Afghanistan"
+        }
+      ]
+    },
+    "careerStep": {
+      "id": 1,
+      "frontline": 0,
+      "voucher_level": 5,
+      "id_account_minus_value": null,
+      "name": "2. Starter Plus"
+    }
+  },
+  {
+    "id": 10,
+    "language_id": 2,
+    "country_id": 1,
+    "career_step_id": 0,
+    "customer_step_id": null,
+    "file_id": 2330,
+    "image_id": 2331,
+    "image_path": "/storage/localhost/uploads/image/f8dc4ec973fa8c6942ad1fbda309352af8c2bbe7.png",
+    "name": "File 1",
+    "is_active": true,
+    "created_at": "2022-05-16T04:24:09.000000Z",
+    "image": {
+      "id": 2331,
+      "extension": "png",
+      "enabled": true,
+      "name": "codeshot 1400-08-09 at 14.03.44 PM.png",
+      "type": "public",
+      "root_file": {
+        "id": 1248,
+        "path": "/storage/localhost/uploads/image/f8dc4ec973fa8c6942ad1fbda309352af8c2bbe7.png",
+        "size": 107552,
+        "mime_type": "image/png"
+      },
+      "created_at": "2022-05-16T04:24:03.000000Z",
+      "updated_at": "2022-05-16T04:24:03.000000Z"
+    },
+    "language": {
+      "id": 2,
+      "title": "Abkhazian",
+      "locale": "ab",
+      "is_ltr": true,
+      "is_default": false,
+      "is_active": true
+    },
+    "country": {
+      "id": 1,
+      "name": "Afghanistan",
+      "default_warranty_days": 14,
+      "max_tax_free_trade": null,
+      "max_small_business_trade": null,
+      "is_eeu": false,
+      "iso2": "AF",
+      "iso3": "AFG",
+      "is_active": true,
+      "is_default": false,
+      "timezone": null,
+      "currency": {
+        "name": "Euro",
+        "id": 49,
+        "ratio": 1,
+        "is_default": true,
+        "symbol": "€",
+        "iso3": "EUR",
+        "is_active": true,
+        "translate": [
+          {
+            "currency_id": 49,
+            "locale": "en",
+            "name": "Euro"
+          }
+        ]
+      },
+      "vats": [],
+      "translate": [
+        {
+          "country_id": 1,
+          "locale": "de",
+          "name": "Afghanistan"
+        },
+        {
+          "country_id": 1,
+          "locale": "en",
+          "name": "Afghanistan"
+        }
+      ]
+    },
+    "careerStep": {
+      "id": 0,
+      "frontline": 0,
+      "voucher_level": 5,
+      "id_account_minus_value": null,
+      "name": "1. Starter"
+    },
+    "children": [
+      {
+        "id": 3,
+        "language_id": 2,
+        "country_id": 1,
+        "career_step_id": 1,
+        "customer_step_id": null,
+        "file_id": 2329,
+        "image_id": 2317,
+        "image_path": "/storage/localhost/uploads/image/7bc6208f26a13808d4b8bd3b1e35635e89b959f1.png",
+        "name": "amuzeshi 1",
+        "is_active": true,
+        "created_at": "2022-05-14T11:44:06.000000Z",
+        "image": {
+          "id": 2317,
+          "extension": "png",
+          "enabled": true,
+          "name": "Copied Image.png",
+          "type": "public",
+          "root_file": {
+            "id": 1247,
+            "path": "/storage/localhost/uploads/image/7bc6208f26a13808d4b8bd3b1e35635e89b959f1.png",
+            "size": 17712,
+            "mime_type": "image/png"
+          },
+          "created_at": "2022-05-15T20:17:22.000000Z",
+          "updated_at": "2022-05-15T20:17:22.000000Z"
+        },
+        "language": {
+          "id": 2,
+          "title": "Abkhazian",
+          "locale": "ab",
+          "is_ltr": true,
+          "is_default": false,
+          "is_active": true
+        },
+        "country": {
+          "id": 1,
+          "name": "Afghanistan",
+          "default_warranty_days": 14,
+          "max_tax_free_trade": null,
+          "max_small_business_trade": null,
+          "is_eeu": false,
+          "iso2": "AF",
+          "iso3": "AFG",
+          "is_active": true,
+          "is_default": false,
+          "timezone": null,
+          "currency": {
+            "name": "Euro",
+            "id": 49,
+            "ratio": 1,
+            "is_default": true,
+            "symbol": "€",
+            "iso3": "EUR",
+            "is_active": true,
+            "translate": [
+              {
+                "currency_id": 49,
+                "locale": "en",
+                "name": "Euro"
+              }
+            ]
+          },
+          "vats": [],
+          "translate": [
+            {
+              "country_id": 1,
+              "locale": "de",
+              "name": "Afghanistan"
+            },
+            {
+              "country_id": 1,
+              "locale": "en",
+              "name": "Afghanistan"
+            }
+          ]
+        },
+        "careerStep": {
+          "id": 1,
+          "frontline": 0,
+          "voucher_level": 5,
+          "id_account_minus_value": null,
+          "name": "2. Starter Plus"
+        }
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "file_id": 1,
+        "file_path": "/storage/sale-system.local/uploads/image/07b78fc4e9a752b3f91afbbad2951ba7ee814821.jpg",
+        "slug": "book",
+        "sort": 1,
+        "is_active": true,
+        "created_at": "2022-04-10T11:36:37.000000Z",
+        "name": "test en",
+        "file": {
+          "id": 1,
+          "extension": "jpg",
+          "enabled": true,
+          "name": "solutions-apps.jpg",
+          "type": "public",
+          "root_file": {
+            "id": 1,
+            "path": "/storage/sale-system.local/uploads/image/07b78fc4e9a752b3f91afbbad2951ba7ee814821.jpg",
+            "size": 462339,
+            "mime_type": "image/jpeg"
+          },
+          "created_at": "2022-04-20T07:55:17.000000Z",
+          "updated_at": "2022-04-20T07:55:17.000000Z",
+          "children": [
+            {
+              "id": 13,
+              "language_id": null,
+              "country_id": null,
+              "career_step_id": null,
+              "customer_step_id": null,
+              "file_id": 2337,
+              "image_id": null,
+              "image_path": null,
+              "name": "231",
+              "is_active": true,
+              "created_at": "2022-05-16T04:59:53.000000Z",
+              "image": null,
+              "language": null,
+              "country": null,
+              "careerStep": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "language_id": 4,
+    "country_id": 1,
+    "career_step_id": 5,
+    "customer_step_id": null,
+    "file_id": 2333,
+    "image_id": 2334,
+    "image_path": "/storage/localhost/uploads/image/f8dc4ec973fa8c6942ad1fbda309352af8c2bbe7.png",
+    "name": "First file",
+    "is_active": true,
+    "created_at": "2022-05-16T04:36:22.000000Z",
+    "image": {
+      "id": 2334,
+      "extension": "png",
+      "enabled": true,
+      "name": "codeshot 1400-08-09 at 14.03.44 PM.png",
+      "type": "public",
+      "root_file": {
+        "id": 1248,
+        "path": "/storage/localhost/uploads/image/f8dc4ec973fa8c6942ad1fbda309352af8c2bbe7.png",
+        "size": 107552,
+        "mime_type": "image/png"
+      },
+      "created_at": "2022-05-16T04:36:08.000000Z",
+      "updated_at": "2022-05-16T04:36:08.000000Z"
+    },
+    "language": {
+      "id": 4,
+      "title": "Afrikaans",
+      "locale": "af",
+      "is_ltr": true,
+      "is_default": false,
+      "is_active": true
+    },
+    "country": {
+      "id": 1,
+      "name": "Afghanistan",
+      "default_warranty_days": 14,
+      "max_tax_free_trade": null,
+      "max_small_business_trade": null,
+      "is_eeu": false,
+      "iso2": "AF",
+      "iso3": "AFG",
+      "is_active": true,
+      "is_default": false,
+      "timezone": null,
+      "currency": {
+        "name": "Euro",
+        "id": 49,
+        "ratio": 1,
+        "is_default": true,
+        "symbol": "€",
+        "iso3": "EUR",
+        "is_active": true,
+        "translate": [
+          {
+            "currency_id": 49,
+            "locale": "en",
+            "name": "Euro"
+          }
+        ]
+      },
+      "vats": [],
+      "translate": [
+        {
+          "country_id": 1,
+          "locale": "de",
+          "name": "Afghanistan"
+        },
+        {
+          "country_id": 1,
+          "locale": "en",
+          "name": "Afghanistan"
+        }
+      ]
+    },
+    "careerStep": {
+      "id": 5,
+      "frontline": 0,
+      "voucher_level": 30,
+      "id_account_minus_value": "2000.00",
+      "name": "6. Supervisor Plus"
+    }
+  },
+  {
+    "id": 12,
+    "language_id": 2,
+    "country_id": 2,
+    "career_step_id": 1,
+    "customer_step_id": null,
+    "file_id": 2335,
+    "image_id": null,
+    "image_path": null,
+    "name": "32",
+    "is_active": true,
+    "created_at": "2022-05-16T04:49:53.000000Z",
+    "image": null,
+    "language": {
+      "id": 2,
+      "title": "Abkhazian",
+      "locale": "ab",
+      "is_ltr": true,
+      "is_default": false,
+      "is_active": true
+    },
+    "country": {
+      "id": 2,
+      "name": "Åland Islands",
+      "default_warranty_days": 14,
+      "max_tax_free_trade": null,
+      "max_small_business_trade": null,
+      "is_eeu": false,
+      "iso2": "AX",
+      "iso3": "ALA",
+      "is_active": true,
+      "is_default": false,
+      "timezone": null,
+      "currency": {
+        "name": "Euro",
+        "id": 49,
+        "ratio": 1,
+        "is_default": true,
+        "symbol": "€",
+        "iso3": "EUR",
+        "is_active": true,
+        "translate": [
+          {
+            "currency_id": 49,
+            "locale": "en",
+            "name": "Euro"
+          }
+        ]
+      },
+      "vats": [],
+      "translate": [
+        {
+          "country_id": 2,
+          "locale": "de",
+          "name": "Åland Islands"
+        },
+        {
+          "country_id": 2,
+          "locale": "en",
+          "name": "Åland Islands"
+        }
+      ]
+    },
+    "careerStep": {
+      "id": 1,
+      "frontline": 0,
+      "voucher_level": 5,
+      "id_account_minus_value": null,
+      "name": "2. Starter Plus"
+    }
+  },
+  {
+    "id": 13,
+    "language_id": null,
+    "country_id": null,
+    "career_step_id": null,
+    "customer_step_id": null,
+    "file_id": 2337,
+    "image_id": null,
+    "image_path": null,
+    "name": "231",
+    "is_active": true,
+    "created_at": "2022-05-16T04:59:53.000000Z",
+    "image": null,
+    "language": null,
+    "country": null,
+    "careerStep": null
+  }
+]

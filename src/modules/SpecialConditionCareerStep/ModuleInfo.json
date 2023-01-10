@@ -1,0 +1,5 @@
+{
+  "Title": "SpecialConditionCareerStep",
+  "Route": "specisaasdsaal-condition-career-step/*",
+  "Entry": "@modules/SpecialConditionCareerStep/pages"
+}

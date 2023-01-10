@@ -1,0 +1,5 @@
+{
+    "Title": "OrderDashboard",
+    "Route": "/dashbosdsdard/orsdsder",
+    "Entry": "@modules/OrderDashboard/pages"
+}

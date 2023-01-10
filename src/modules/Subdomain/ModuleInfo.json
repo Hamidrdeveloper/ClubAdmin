@@ -1,0 +1,5 @@
+{
+  "Title": "Subdomain",
+  "Route": "/partnsadasdsader/subdomain/*",
+  "Entry": "@modules/Subdomain/pages"
+}

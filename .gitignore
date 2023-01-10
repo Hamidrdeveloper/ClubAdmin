@@ -1,0 +1,19 @@
+.idea
+.vscode
+.env
+dist
+node_modules
+heapscript.sh
+package-lock.json
+yarn-error.log
+src/.DS_Store
+src/modules/.DS_Store
+cypress/videos/
+
+src/assets/locales/En.json
+src/modules/Router.tsx
+
+# cypress recorded tests directory
+cypress/videos
+cypress/screenshots
+.DS_Store

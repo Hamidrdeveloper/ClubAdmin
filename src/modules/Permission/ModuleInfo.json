@@ -1,0 +1,5 @@
+{
+  "Title": "Permission",
+  "Route": "/permsadissions/*",
+  "Entry": "@modules/Permission/pages"
+}

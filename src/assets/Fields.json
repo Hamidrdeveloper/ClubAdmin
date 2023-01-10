@@ -1,0 +1,598 @@
+{
+    "Product" : {
+        "Settings" : {
+            "number" : {
+                "en" : "",
+                "de" : ""
+            },
+            "number_series_position_id" : {
+                "en" : "",
+                "de" : ""
+            },
+            "productCategories" : {
+                "en" : "",
+                "de" : ""
+            },
+            "default_vat" : {
+                "en" : "",
+                "de" : ""
+            },
+            "sort" : {
+                "en" : "",
+                "de" : ""
+            },
+            "max_order_quantity" : {
+                "en" : "",
+                "de" : ""
+            },
+            "min_order_quantity" : {
+                "en" : "",
+                "de" : ""
+            },
+            "release_date" : {
+                "en" : "",
+                "de" : ""
+            },
+            "available_until" : {
+                "en" : "",
+                "de" : ""
+            },
+            "interval_order_quantity" : {
+                "en" : "",
+                "de" : ""
+            },
+            "name" : {
+                "en" : "",
+                "de" : ""
+            },
+            "description" : {
+                "en" : "",
+                "de" : ""
+            }
+        },
+        "Variation" : {
+            "settings" : {
+                "number" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "number_series_position_id" :{
+                    "en" : "",
+                    "de" : ""
+                },
+                "quantity" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "point" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "max_order_quantity" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "min_order_quantity" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "crossSellingVariations":{
+                    "en" : "",
+                    "de" : ""
+                },
+                "availability_id" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "maximum_sale_for_each_user" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "release_date" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "available_until" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "customTariff" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "shippingProfiles" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "unit" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "barcodes" : {
+                    "en" : "",
+                    "de" : ""
+                }
+            },
+    
+            "price" : {
+                "currency" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "price_type" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "country" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "price_value" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "unit_price" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "available_from" : {
+                    "en" : "",
+                    "de" : ""
+                },
+                "minimum_quantity" : {
+                    "en" : "",
+                    "de" : ""
+                }
+
+            },
+
+            "text" : {
+                "name": {
+                    "en" : "",
+                    "de" : ""
+                },
+                "locale": {
+                    "en" : "",
+                    "de" : ""
+                },
+                "description": {
+                    "en" : "",
+                    "de" : ""
+                },
+                "preview_text": {
+                    "en" : "",
+                    "de" : ""
+                },
+                "meta_keywords": {
+                    "en" : "",
+                    "de" : ""
+                },
+                "technical_data": {
+                    "en" : "",
+                    "de" : ""
+                },
+                "meta_description": {
+                    "en" : "",
+                    "de" : ""
+                }
+            }
+            
+        },
+        "Categories" : {
+            "name" : {
+                "en" : "",
+                "de" : ""
+            },
+            "description" : {
+                "en" : "",
+                "de" : ""
+            },
+            "parent" : {
+                "en" : "",
+                "de" : ""
+            },
+            "sort" : {
+                "en" : "",
+                "de" : ""
+            },
+            "color" : {
+                "en" : "",
+                "de" : ""
+            }
+        },
+
+        "Coupons" : {
+            "name" : {
+                "en" : "",
+                "de" : ""
+            },
+            "description" : {
+                "en" : "",
+                "de" : ""
+            },
+            "release_date" : {
+                "en" : "",
+                "de" : ""
+            },
+            "available_until" : {
+                "en" : "",
+                "de" : ""
+            },
+            "type" : {
+                "en" : "",
+                "de" : ""
+            },
+            "amount" : {
+                "en" : "",
+                "de" : ""
+            },
+            "min_amount" : {
+                "en" : "",
+                "de" : ""
+            },
+            "max_quantity_each_user" : {
+                "en" : "",
+                "de" : ""
+            },
+            "quantity" : {
+                "en" : "",
+                "de" : ""
+            },
+            "code"  : {
+                "en" : "",
+                "de" : ""
+            },
+            "productVariations" : {
+                "en" : "",
+                "de" : ""
+            }
+        },
+
+        "Barcode" : {
+            "type" : {
+                "en" : "",
+                "de" : ""
+            },
+            "value" : {
+                "en" : "",
+                "de" : ""
+            }
+        }
+    },
+
+    "Packages" : {
+        "packing_type" : {
+            "en" : "",
+            "de" : ""
+        },
+        "length" : {
+            "en" : "",
+            "de" : ""
+        },
+        "width" : {
+            "en" : "",
+            "de" : ""
+        },
+        "height" : {
+            "en" : "",
+            "de" : ""
+        },
+        "net_weight" : {
+            "en" : "",
+            "de" : ""
+        },
+        "gross_weight" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "PaymentTerms" : {
+        "description" : {
+            "en" : "",
+            "de" : ""
+        },
+        "due_days" : {
+            "en" : "",
+            "de" : ""
+        },
+        "discount_percentage" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "Subdomain" : {
+        "name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "partner" : {
+            "en" : "",
+            "de" : ""
+        },
+        "hours" : {
+            "en" : "",
+            "de" : ""
+        },
+        "title" : {
+            "en" : "",
+            "de" : ""
+        },
+        "description" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "Referrer" : {
+        "owner" : {
+            "en" : "",
+            "de" : ""
+        },
+        "number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "slug" : {
+            "en" : "",
+            "de" : ""
+        },
+        "title" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "Attributes" : {
+        "settings" : {
+            "name" : {
+                "en" : "",
+                "de" : ""
+            },
+            "productVariationCategory" : {
+                "en" : "",
+                "de" : ""
+            },
+            "subdomain" : {
+                "en" : "",
+                "de" : ""
+            },
+            "partner" : {
+                "en" : "",
+                "de" : ""
+            },
+            "position" : {
+                "en" : "",
+                "de" : ""
+            },
+            "selectable_type" : {
+                "en" : "",
+                "de" : ""
+            }
+        }
+    },
+
+    "Availability" : {
+        "name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "average_days" : {
+            "en" : "",
+            "de" : ""
+        },
+        "file" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "CustomTariff" : {
+        "number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "value" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "NumberSeries" : {
+        "type" : {
+            "en" : "",
+            "de" : ""
+        },
+        "name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "description" : {
+            "en" : "",
+            "de" : ""
+        },
+        "starting_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "ending_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "increment_by_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "warning_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "available_from" : {
+            "en" : "",
+            "de" : ""
+        },
+        "last_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "prefix" : {
+            "en" : "",
+            "de" : ""
+        },
+        "company" : {
+            "en" : "",
+            "de" : ""
+        },
+        "allow_gaps" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "User" : {
+        "username" : {
+            "en" : "",
+            "de" : ""
+        },
+        "first_name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "last_name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "birth_date" : {
+            "en" : "",
+            "de" : ""
+        },
+        "gender" : {
+            "en" : "",
+            "de" : ""
+        },
+        "email" : {
+            "en" : "",
+            "de" : ""
+        },
+        "company_name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "country" : {
+            "en" : "",
+            "de" : ""
+        },
+        "flag" : {
+            "en" : "",
+            "de" : ""
+        },
+        "language" : {
+            "en" : "",
+            "de" : ""
+        },
+        "sponsor" : {
+            "en" : "",
+            "de" : ""
+        },
+        "tax_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "vat_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "eori_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "paymentMethod" : {
+            "en" : "",
+            "de" : ""
+        },
+        "credit_limit" : {
+            "en" : "",
+            "de" : ""
+        },
+        "shippingMethod" : {
+            "en" : "",
+            "de" : ""
+        },
+        "paymentTerm" : {
+            "en" : "",
+            "de" : ""
+        },
+        "discount_ratio" : {
+            "en" : "",
+            "de" : ""
+        },
+        "letter_price" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "Address" : {
+        "title" : {
+            "en" : "",
+            "de" : ""
+        },
+        "address" : {
+            "en" : "",
+            "de" : ""
+        },
+        "street" : {
+            "en" : "",
+            "de" : ""
+        },
+        "house_number" : {
+            "en" : "",
+            "de" : ""
+        },
+        "postal_code" : {
+            "en" : "",
+            "de" : ""
+        },
+        "city" : {
+            "en" : "",
+            "de" : ""
+        },
+        "state" : {
+            "en" : "",
+            "de" : ""
+        },
+        "country" : {
+            "en" : "",
+            "de" : ""
+        },
+        "emails" : {
+            "en" : "",
+            "de" : ""
+        },
+        "website" : {
+            "en" : "",
+            "de" : ""
+        },
+        "phones" : {
+            "en" : "",
+            "de" : ""
+        }
+    },
+
+    "BankDetails" : {
+        "bank_name" : {
+            "en" : "",
+            "de" : ""
+        },
+        "iban" : {
+            "en" : "",
+            "de" : ""
+        },
+        "bic" : {
+            "en" : "",
+            "de" : ""
+        }
+    }
+    
+}

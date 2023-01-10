@@ -1,0 +1,23 @@
+{
+  "Featching": "Snap! There was an error on fetching...",
+  "EnteredBarcodeIsInvalid": "Entered Barcode Is Invalid",
+  "Picked": "Picked!",
+  "Cancel": "Cancel?",
+  "Barcode": "Barcode",
+  "Done": "Done",
+  "OnlineTablet": "Online Tablet",
+  "PickList": "Pick List",
+  "Positions": "Positions",
+  "OverPicked": "Over Picked!",
+  "PickedPartially": "Picked Partially!",
+  "NotPicked": "Not Picked!",
+  "SelectAll": "Select All",
+  "TotalWeight": "Total Weight",
+  "GroupFunction": "Group Function",
+  "Select": "Select",
+  "OrderId": "Order Id",
+  "NoName": "No Name",
+  "Country": "Country",
+  "ShippingProfile": "Shipping Profile",
+  "All": "All"
+}

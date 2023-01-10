@@ -1,0 +1,5 @@
+{
+    "Title": "PackerDashboard",
+    "Route": "/dashbsdsdoard/packer",
+    "Entry": "@modules/PackerDashboard/pages"
+}

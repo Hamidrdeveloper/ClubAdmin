@@ -1,0 +1,5 @@
+{
+  "Title": "Videos",
+  "Route": "/Videos/Videos/*",
+  "Entry": "@modules/Role/pages"
+}

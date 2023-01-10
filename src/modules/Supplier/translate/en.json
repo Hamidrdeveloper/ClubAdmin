@@ -1,0 +1,54 @@
+{
+  "Title": "Supplier",
+  "Title_other": "Suppliers",
+
+  "Field": {
+    "Country": "Country",
+    "Company": "Company",
+    "IsValid": "Is Valid",
+    "VatNumber": "Vat Number",
+    "TaxNumber": "Tax Number",
+    "EoriNumber": "Eori Number",
+    "CreditLimit": "Credit Limit",
+    "ShippingMethod": "Shipping Method",
+    "PaymentTermDescription": "Payment Term",
+    "UseGlnInDocuments": "Use Gln in documents",
+    "DefaultPaymentTerm": "Default Payment Term",
+    "DefaultShippingMethod": "Default Shipping Method"
+  },
+
+  "CompanyInfo": {
+    "TabTitle": "Company Info",
+
+    "Price": "Price",
+    "Flags": "Flags",
+    "Roles": "Roles",
+    "CanLogin": "Can Login",
+    "ContactGroup": "Contact Group",
+    "DefaultPaymentMethod": "Default Payment Method",
+    "CommunicationByLetter": "Communication By Letter",
+    "CanLoginToSystem": "Can Login To System",
+    "CanNotLoginToSystem": "Can Not Login To System",
+    "DeActiveAccount": "DeActive Account",
+    "AskForDeActiveUser": "Are you sure you want to disable this user ? After this operation, the user can not login",
+    "UserDisabled": "User Disabled Successfully"
+  },
+
+  "PasswordSetting": {
+    "TabTitle": "Password Setting"
+  },
+
+  "Address": {
+    "Title": "Address",
+    "TabTitle": "Address",
+    "Title_other": "Addresses"
+  },
+
+  "BankDetails": {
+    "TabTitle": "Bank Details"
+  },
+
+  "Documents": {
+    "TabTitle": "Documents"
+  }
+}

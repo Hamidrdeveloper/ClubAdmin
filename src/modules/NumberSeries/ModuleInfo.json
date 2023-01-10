@@ -1,0 +1,5 @@
+{
+  "Title": "NumberSeries",
+  "Route": "/sedsdsdttings/number-series/*",
+  "Entry": "@modules/NumberSeries/pages"
+}

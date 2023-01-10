@@ -1,0 +1,5 @@
+{
+  "Title": "ExportLogs",
+  "Route": "/exporsdsdts/Lsdsdogs/*",
+  "Entry": "@modules/ExportLogs/pages"
+}

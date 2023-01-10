@@ -1,0 +1,5 @@
+{
+  "Title": "Template",
+  "Route": "/sasdasdasdhop-settings/templates/*",
+  "Entry": "@modules/Template/pages"
+}

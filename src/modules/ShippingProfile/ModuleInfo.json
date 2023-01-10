@@ -1,0 +1,5 @@
+{
+  "Title": "ShippingProfile",
+  "Route": "/onboarding/onboarding/*",
+  "Entry": "@modules/ShippingProfile/pages"
+}

@@ -1,0 +1,42 @@
+{
+  "Title": "Calendar",
+  "Title_other": "Calendars",
+  "CreatedAt": "Created At",
+
+  "Field": {
+    "Name": "Name",
+    "User": "User",
+    "Users": "Users",
+    "IsVisible": "Visible",
+    "IsEditable": "Editable"
+  },
+
+  "Category": {
+    "Title": "Calendar Category",
+    "Title_other": "Calendars Categories",
+
+    "Field": {
+      "Slug": "Slug",
+      "Sort": "Sort",
+      "Parent": "Parent"
+    }
+  },
+
+  "Event": {
+    "Title": "Calendar Event",
+
+    "Field": {
+      "Name": "Event Name",
+      "Description": "Description",
+      "Location": "Location",
+      "Color": "Color",
+      "Date": "Date Time",
+      "StartDate": "Start Date",
+      "EndDate": "End Date",
+      "AllDay": "All Day",
+      "Repeat": "Repeat Monthly",
+      "Category": "Category",
+      "MeetLink": "Meet Link"
+    }
+  }
+}

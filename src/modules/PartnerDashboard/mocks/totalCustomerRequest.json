@@ -1,0 +1,12 @@
+{
+  "slug": "partner-dashboard",
+  "partner_id": null,
+  "subdomain_id": null,
+  "data": {
+    "target_cash": 15000,
+    "orders_goal": 15,
+    "points_goal": 20,
+    "bfu_goal": 25,
+    "total_sales_goal": 50
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "Title": "User",
+  "Title_other": "Users",
+
+  "Customer": "Customer",
+  "Customer_other": "Customers",
+
+  "Admin": "Admin",
+  "Admin_other": "Admins",
+
+  "Employee": "Employee",
+  "Employee_other": "Employees",
+
+  "Field": {
+    "Fax": "Fax",
+    "City": "City",
+    "Male": "Male",
+    "Admin": "Admin",
+    "Phone": "Phone",
+    "Email": "Email",
+    "State": "State",
+    "Roles": "Roles",
+    "Other": "Other",
+    "Avatar": "Avatar",
+    "Female": "Female",
+    "Gender": "Gender",
+    "Mobile": "Mobile",
+    "Country": "Country",
+    "Enabled": "Enabled",
+    "Twitter": "Twitter",
+    "Website": "Website",
+    "Address": "Address",
+    "IsValid": "Is Valid",
+    "Sponsor": "Sponsor",
+    "Facebook": "Facebook",
+    "Disabled": "Disabled",
+    "Password": "Password",
+    "Linkedin": "Linkedin",
+    "LastName": "Last Name",
+    "LanguageId": "Language",
+    "VatNumber": "Vat Number",
+    "TaxNumber": "Tax Number",
+    "FirstName": "First Name",
+    "Additional": "Additional",
+    "EoriNumber": "Eori Number",
+    "PublicFindable": "Public Findable",
+    "CareerStep": "Career Step",
+    "PostalCode": "Postal Code",
+    "IsVatValid": "Is Vat Valid",
+    "CompanyName": "Company Name",
+    "HouseNumber": "House Number",
+    "CreditLimit": "Credit Limit",
+    "MicrosoftID": "Microsoft ID",
+    "CustomerStep": "Customer Step",
+    "UserDiscount": "User Discount",
+    "PostIdentity": "Post Identity",
+    "TelephoneNumber": "Telephone Number",
+    "GlnNumber": "Use Gln in Documents",
+    "PaymentMethodId": "Payment Method",
+    "TwoFactorEnabled": "Two Factor Enabled",
+    "DefaultPaymentTerm": "Default PaymentTerm",
+    "UseGlnInDocuments": "Use Gln in Documents",
+    "JoinedToCleafinOn": "Joined To Cleafin On",
+    "DefaultPaymentTerms": "Default Payment Term",
+    "DefaultShippingMethod": "Default Shipping Method",
+    "CommunicationByLetter": "Communication By Letter",
+    "MaximumCreditLimitLengthIsSix": "Maximum Credit Limit is 6 Digits",
+    "AreYouSureYouWantToChangeSponsor": "Are you sure you want to change sponsor?",
+    "TwoFactorAuthenticationSuccessfully": "Two Factor Authentication {{title}} Successfully.",
+    "CantActivateTwoFactorAuthenticationWhileCreating": "Can not activate two factor authentication while creating {{title}}"
+  },
+
+  "PersonalInfo": {
+    "Flag": "Flag",
+    "Price": "Price",
+    "UserType": "User Type",
+    "BirthDate": "Birth Date",
+    "SponsorID": "Sponsor ID",
+    "Supervisor": "Supervisor",
+    "TabTitle": "Personal Info",
+    "PaymentMethod": "Payment Method",
+    "Title": "User Personal Information",
+    "CreateNewOrder": "Create New Order",
+    "CreateNewSubscription": "Create New Subscription",
+    "CreateNewOrderPartner": "Create New Order Partner",
+    "DeActiveAccount": "DeActive Account",
+    "ActivateAccount": "Activate Account",
+    "RevalidateVatNumber": "Revalidate Vat Number",
+    "SetPriceInWebsiteSettings": "Set Price In Website Settings",
+    "EmailWrong": "Email Format Is Wrong",
+    "QuitPartner": "Quit Partner",
+    "QuitPartnerConfirmation": "Are You Sure Quit This Partner ? This operation cannot be undone"
+  },
+
+  "PasswordSetting": {
+    "Title": "Reset Password",
+    "NewPassword": "New Password",
+    "TabTitle": "Password Setting",
+    "ConfirmNewPassword": "Confirm New Password",
+    "SendPasswordResetLink": "Send Password Reset Link"
+  },
+
+  "Address": {
+    "Title": "Address",
+    "Title_other": "Addresses",
+
+    "Phone": "Phone",
+    "Website": "Website",
+    "TabTitle": "Addresses",
+    "AddressLine": "Address Line",
+    "CompanyName": "Company Name",
+    "TitleOfDataSet": "Title of the data set",
+    "SetAsAnInvoiceAddress": "Set as an Invoice Address",
+
+    "Field": {
+      "Fax": "Fax",
+      "City": "City",
+      "State": "State",
+      "Street": "Street",
+      "Office": "Office",
+      "Country": "Country",
+      "PostalCode": "Postal Code",
+      "HouseNumber": "House Number",
+      "CreateNewEmail": "Create New Email",
+      "WebsiteUrl": "Website Url",
+      "EmailAddress": "Email Address",
+      "CreateNewPhone": "Create New Phone",
+      "CreateNewWebsite": "Create New Website",
+      "Phone/Fax/Office": "Phone / Fax / Office"
+    }
+  },
+
+  "BankDetails": {
+    "Title": "Bank Details",
+    "Title_other": "Bank Details",
+
+    "BIC": "BIC",
+    "TabTitle": "Bank Details",
+    "BankData": "Bank Data",
+    "BankName": "Bank Name",
+    "IBANNumber": "IBAN Number"
+  },
+
+  "Documents": {
+    "Title": "Document",
+    "Title_other": "Documents",
+
+    "OrderID": "Order ID",
+    "TabTitle": "Documents",
+    "UpdatedAt": "Update At",
+    "OrderType": "Order Type",
+    "CreatedBy": "Created By",
+    "CreatedAt": "Created At",
+    "DocumentFile": "Document File",
+    "DocumentName": "Document Name",
+    "DocumentTypeID": "Document Type ID"
+  },
+
+  "AccountBalance": {
+    "TabTitle": "Account Balance"
+  },
+
+  "Team&Work": { "TabTitle": "Team & Work" },
+  "MLMStructure": { "TabTitle": "MLM Structure" },
+
+  "Partner": {
+    "Title": "Partner",
+    "TabTitle": "Partner",
+
+    "Company": "Company",
+    "Title_other": "Partners",
+    "CareerStep": "Career Step"
+  },
+
+  "WalletTransaction": {
+    "TabTitle": "Wallet Transactions"
+  }
+}

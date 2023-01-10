@@ -1,0 +1,5 @@
+{
+  "Title": "DPD",
+  "Route": "/shisddsdpping/DPD/*",
+  "Entry": "@modules/DPD/pages"
+}

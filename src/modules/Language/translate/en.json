@@ -1,0 +1,5 @@
+{
+  "Title": "Language",
+  "Title_other": "Languages",
+  "Field": { "Locale": "Locale", "IsLtr": "Is Ltr" }
+}

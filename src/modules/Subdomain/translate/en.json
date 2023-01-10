@@ -1,0 +1,27 @@
+{
+  "Title": "Subdomain",
+  "Title_other": "Subdomains",
+
+  "Table": {
+    "Partner": "Partner"
+  },
+
+  "Field": {
+    "Hours": "Hours",
+    "Partner": "Partner",
+    "Socials": "Social Media",
+    "ContactGroup": "Contact Group",
+    "PaymentMethod": "Payment Method",
+    "ChangePaymentMethodTitle": "Change Payment Method",
+    "ChangePaymentMethodNotification": "with changing this setting, you have to accept the payment term and condition regarding payment provider costs"
+  },
+  "Tabs": {
+    "Partner": "Partner",
+    "Subdomain": "Subdomain",
+    "SaleSystem": "Shop Settings",
+    "AnalyticTag": "Analytic Tag",
+    "SocialMedia": "Social Media"
+  },
+  "PartnerSubdomain": "Partner Subdomain",
+  "FirstPageText": "First Page Text"
+}

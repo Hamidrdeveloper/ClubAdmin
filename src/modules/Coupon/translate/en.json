@@ -1,0 +1,22 @@
+{
+  "Title": "Coupon",
+  "Title_other": "Coupons",
+
+  "Products": "Products",
+  "AddSelected": "Add Selected",
+  "ProductVariations": "Product Variations",
+
+  "Field": {
+    "Codes": "Coupon Codes",
+    "FirstOrder": "First Order",
+    "ReleaseDate": "Release Date",
+    "AmountPercent": "Amount (%)",
+    "UsedQuantity": "Used Quantity",
+    "MinimumAmount": "Minimum Amount",
+    "AvailableUntil": "Available Until",
+    "MaxQuantityEachUser": "Max Quantity Each User",
+    "ProductInsteadOfDiscount": "Product Instead Of Discount"
+  },
+
+  "WrongDateMsg": "The Release date should be before Available Until date. Please correct your dates!"
+}

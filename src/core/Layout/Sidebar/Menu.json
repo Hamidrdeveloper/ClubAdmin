@@ -1,0 +1,130 @@
+{
+  "menus": [
+    {
+      "id": "1",
+      "isVisible": "true",
+      "icon": "products.svg",
+      "title": "Products",
+      "translate_title": "SidePanel.Dashboard",
+      "linkPath": "/productss",
+      "permission": "GetAllProducts",
+      "children": []
+    },
+    {
+      "id": "2",
+      "isVisible": "true",
+      "icon": "teams-outline-svgrepo-com.svg",
+      "title": "Payments",
+      "translate_title": "SidePanel.Teams",
+      "linkPath": "/Teams",
+      "permission": "GetAllPayments",
+      "children": [
+        {
+          "title": "Payment Methods",
+          "translate_title": "SidePanel.Teams",
+          "link": "/Teams",
+          "permission": "GetAllPaymentMethods"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "isVisible": "true",
+      "icon": "sound-lines-svgrepo-com.svg",
+      "title": "Domain Settings",
+      "translate_title": "SidePanel.Chants",
+      "linkPath": "/Chants",
+      "permission": "GetAllPartners",
+      "children": [
+        {
+          "title": "Chant",
+          "translate_title": "Chant",
+          "link": "/Chant",
+          "permission": "GetAllSubdomains"
+        },
+        {
+          "title": "Chant Type",
+          "translate_title": "Chant Type",
+          "link": "/type",
+          "permission": "GetAllReferrers"
+        },
+        {
+          "title": "Connect Chant",
+          "translate_title": "Chant Connect",
+          "link": "/ConnectChant",
+          "permission": "GetAllReferrers"
+        }
+
+      ]
+    },
+    {
+      "id": "3",
+      "isVisible": "true",
+      "icon": "event-svgrepo-com.svg",
+      "title": "Event",
+      "translate_title": "SidePanel.Events",
+      "linkPath": "/Items",
+      "permission": "GetAllPrices",
+      "children": [
+        {
+          "title": "Event",
+          "translate_title": "SidePanel.Event",
+          "link": "/Event",
+          "permission": "GetAllPriceTypes"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "isVisible": "true",
+      "icon": "video-svgrepo-com.svg",
+      "title": "Permissions",
+      "translate_title": "SidePanel.Videos",
+      "linkPath": "/Videos",
+      "permission": "GetAllPriceTypes",
+      "children": [
+        {
+          "title": "Roles",
+          "translate_title": "SidePanel.Videos",
+          "link": "/Videos",
+          "permission": "GetAllPriceTypes"
+        }
+      ]
+    },
+
+    {
+      "id": "20",
+      "isVisible": "true",
+      "icon": "image-svgrepo-com.svg",
+      "title": "Onboarding",
+      "translate_title": "SidePanel.Onboarding",
+      "linkPath": "/onboarding",
+      "permission": "GetAllShippingProfiles",
+      "children": [
+        {
+          "title": "Onboarding",
+          "translate_title": "SidePanel.Onboarding",
+          "link": "/onboarding",
+          "permission": "GetAllShippingProfiles"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "isVisible": "true",
+      "icon": "quiz-submissions-svgrepo-com.svg",
+      "title": "Sale System Settings",
+      "translate_title": "SidePanel.Quiz",
+      "linkPath": "/Quiz",
+      "permission": "GetSetting",
+      "children": [
+        {
+          "title": "SidePanel.Quiz",
+          "translate_title": "SidePanel.Quiz",
+          "link": "/Quiz",
+          "permission": "GetAllAttributeTypes"
+        }
+      ]
+    }
+  ]
+}

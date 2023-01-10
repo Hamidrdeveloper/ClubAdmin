@@ -1,0 +1,20 @@
+{
+  "Title": "User Type",
+  "Title_other": "User Types",
+
+  "Field": {
+    "Language": "Language",
+    "DiscountPercentage": "Discount Percentage",
+    "MinPoint": "Minimum Point",
+    "BonusType": "Bonus Type",
+    "BonusValue": "Bonus Value",
+    "PeriodType": "Period Type",
+    "MinPeriod": "Minimum Period",
+    "WithNumberOfGenerations": "With Number Of Generations",
+    "Day": "Day",
+    "Month": "Month",
+    "Year": "Year",
+    "Point": "Point",
+    "Percentage": "Percentage"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "Title": "Status",
+  "Route": "/settasdsadasdings/status/*",
+  "Entry": "@modules/Status/pages"
+}

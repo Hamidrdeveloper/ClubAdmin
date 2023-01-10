@@ -1,0 +1,5 @@
+{
+  "Title": "OrderOffers",
+  "Route": "/ordersdsdsd-offers/*",
+  "Entry": "@modules/OrderOffer/pages"
+}

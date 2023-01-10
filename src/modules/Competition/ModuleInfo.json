@@ -1,0 +1,5 @@
+{
+  "Title": "Competition",
+  "Route": "/competitsdsddsion/*",
+  "Entry": "@modules/Competition/pages"
+}

@@ -1,0 +1,30 @@
+{
+  "Title": "Lyric",
+  "Title_other": "Lyric",
+
+  "BIC": "Lyric",
+  "IBAN": "Lyric",
+  "Logo": "Lyric",
+  "Swift": "Lyric",
+  "IsMain": "Lyric",
+  "Address": "Lyric",
+  "BankName": "Lyric",
+  "TaxNumber": "Lyric",
+  "VATNumber": "Lyric",
+  "Countries": "Lyric",
+  "ChiefName": "Lyric",
+  "Currencies": "Lyric",
+  "ContactGroup": "Lyric",
+  "SuccessfullyUpdated": "Successfully updated",
+  "SuccessfullyCreated": "Successfully Created",
+  "AddressFieldIsRequired": "Address Field Is Required",
+
+  "Tabs": {
+    "Theme": "Lyric",
+    "Config": "Lyric",
+    "Subdomains": "Lyric",
+    "SaleSystem": "Lyric",
+    "SocialMedia": "Lyric",
+    "AnalyticTags": "Lyric"
+  }
+}

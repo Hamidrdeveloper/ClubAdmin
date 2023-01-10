@@ -1,0 +1,18 @@
+{
+  "Title": "Wallet",
+  "Title_other": "Wallets",
+
+  "UUID": "UUID",
+  "Balance": "Balance",
+  "FullName": "Full Name",
+  "WalletID": "Wallet ID",
+  "CreatedAt": "Created At",
+
+  "Transaction": {
+    "Title": "Transaction",
+    "Title_other": "Transactions",
+
+    "WalletID": "Wallet ID",
+    "WalletUUID": "Wallet UUID"
+  }
+}

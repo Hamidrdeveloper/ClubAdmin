@@ -1,0 +1,5 @@
+{
+  "Title": "Dashboard",
+  "Route": "/dashboard/*",
+  "Entry": "@modules/Dashboard/pages"
+}

@@ -1,0 +1,5 @@
+{
+  "Title": "PaymentMethodType",
+  "Route": "/paymesadasdasdnts/method-types/*",
+  "Entry": "@modules/PaymentMethodType/pages"
+}

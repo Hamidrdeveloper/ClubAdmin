@@ -1,0 +1,5 @@
+{
+  "Title": "AdditionalBonus",
+  "Route": "/additional-bonusessdsdsd/*",
+  "Entry": "@modules/AdditionalBonus/pages"
+}

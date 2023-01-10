@@ -1,0 +1,83 @@
+{
+  "data": {
+    "total_participants": 2046,
+    "participants": [
+      {
+        "participant_type": "active",
+        "number_of_participants": 1
+      },
+      {
+        "participant_type": "inactive",
+        "number_of_participants": 2045
+      }
+    ],
+    "topParticipants": [
+      {
+        "user_id": 11264,
+        "points": "100",
+        "user": {
+          "id": 11264,
+          "avatar": null,
+          "username": "11264",
+          "email": "11264_C62352631323",
+          "discount_ratio": 0,
+          "walletBalance": "0",
+          "payment_method_id": null,
+          "is_vat_valid": null,
+          "communication_by_letter": false,
+          "vat_number": null,
+          "tax_number": null,
+          "credit_limit": null,
+          "eori_number": null,
+          "use_gln_indocuments": null,
+          "default_shipping_method_id": null,
+          "default_payment_terms_id": null,
+          "file_id": null,
+          "point": null,
+          "is_active": true,
+          "_data": null,
+          "birth_date": null,
+          "created_at": null,
+          "updated_at": "2017-10-06T21:29:14.000000Z",
+          "invoice_contact_group_id": 1265,
+          "flag_id": null,
+          "dunning_level_id": null,
+          "able_to_see_downline": 0,
+          "old_id": "1-11475-67",
+          "sponsor_id": 10022,
+          "old_sponsor_id": "1-10046-82",
+          "career_step_id": null,
+          "customer_step_id": 31,
+          "two_factor_enable": false,
+          "partner_id": null,
+          "partner": null,
+          "person": {
+            "id": 1289,
+            "first_name": "C6235",
+            "last_name": "K420",
+            "gender": null,
+            "full_name": "C6235 K420",
+            "company_name": null,
+            "created_by": null
+          },
+          "roles": [
+            {
+              "id": 3,
+              "title": "customer",
+              "company_visibility": true,
+              "owner_visibility": true,
+              "slug": "user",
+              "translate": [
+                {
+                  "role_id": 3,
+                  "locale": "en",
+                  "title": "customer"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

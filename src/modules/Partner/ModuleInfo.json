@@ -1,0 +1,5 @@
+{
+  "Title": "Partner",
+  "Route": "/partnsadsaer/list/*",
+  "Entry": "@modules/Partner/pages"
+}

@@ -1,0 +1,17 @@
+{
+  "Title": "Vibrate",
+  "Title_other": "Vibrate",
+
+  "Field": {
+    "Name": "Vibrate",
+    "Iso3": "Vibrate.",
+    "Iso2": "Vibrate.",
+    "IsEeu": "Vibrate",
+    "Vat": "Vibrate",
+    "CurrencyName": "Vibrate",
+    "DefaultVat": "Vibrate",
+    "MaxTaxFreeTrade": "Vibrate",
+    "DefaultWarrantyDays": "Vibrate",
+    "MaxSmallBusinessTrade": "Vibrate"
+  }
+}

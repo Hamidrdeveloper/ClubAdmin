@@ -1,0 +1,5 @@
+{
+  "Title": "UserType",
+  "Route": "/usasdasdasder-types/*",
+  "Entry": "@modules/UserType/pages"
+}

@@ -1,0 +1,5 @@
+{
+  "Title": "VariationCategory",
+  "Route": "/produsadsadsadcts/variation-categories/*",
+  "Entry": "@modules/VariationCategory/pages"
+}

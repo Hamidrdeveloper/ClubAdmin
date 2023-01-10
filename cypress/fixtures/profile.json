@@ -1,0 +1,2900 @@
+{
+  "data": {
+    "id": 1,
+    "avatar": null,
+    "username": "john@doe.com",
+    "email": "john@doe.com",
+    "discount_ratio": 0,
+    "payment_method_id": null,
+    "is_vat_valid": 1,
+    "communication_by_letter": false,
+    "vat_number": null,
+    "tax_number": "789",
+    "credit_limit": 123,
+    "eori_number": "789",
+    "use_gln_indocuments": true,
+    "default_shipping_method_id": 1,
+    "default_payment_terms_id": 1,
+    "file_id": null,
+    "point": null,
+    "is_active": true,
+    "_data": null,
+    "birth_date": "2022-01-15",
+    "created_at": "2021-10-01T00:32:27.000000Z",
+    "updated_at": "2022-01-19T12:22:48.000000Z",
+    "invoice_contact_group_id": 8,
+    "flag_id": null,
+    "language": {
+      "id": 116,
+      "title": "Dutch",
+      "locale": "nl",
+      "is_ltr": true,
+      "is_default": false,
+      "is_active": true
+    },
+    "country": {
+      "id": 83,
+      "name": "Deutschland",
+      "default_warranty_days": 14,
+      "max_tax_free_trade": null,
+      "max_small_business_trade": null,
+      "is_eeu": true,
+      "iso2": "DE",
+      "iso3": "DEU",
+      "is_active": true,
+      "is_default": true,
+      "timezone": null,
+      "currency": {
+        "name": "Euro",
+        "id": 49,
+        "ratio": 1,
+        "is_default": true,
+        "symbol": "€",
+        "iso3": "EUR",
+        "is_active": true,
+        "translate": [
+          {
+            "currency_id": 49,
+            "locale": "en",
+            "name": "Euro"
+          }
+        ]
+      },
+      "vats": [
+        {
+          "id": 2,
+          "number": "nisi",
+          "valid_from": "2021-09-30T01:00:51.000000Z",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "number": "DE-7",
+          "valid_from": "2021-09-30T01:01:39.000000Z",
+          "value": 7.7
+        },
+        {
+          "id": 1,
+          "number": "DE-19",
+          "valid_from": "2021-09-30T01:00:46.000000Z",
+          "value": 19
+        }
+      ],
+      "translate": [
+        {
+          "country_id": 83,
+          "locale": "de",
+          "name": "Deutschland"
+        },
+        {
+          "country_id": 83,
+          "locale": "en",
+          "name": "Germany"
+        }
+      ]
+    },
+    "sponsor": null,
+    "person": {
+      "id": 1,
+      "first_name": "Admin",
+      "last_name": "Admini",
+      "gender": "male",
+      "company_name": "Cleafin",
+      "created_by": null
+    },
+    "roles": [
+      {
+        "id": 1,
+        "title": "admin",
+        "company_visibility": false,
+        "owner_visibility": false,
+        "slug": "admin",
+        "permissions": [
+          {
+            "id": 1,
+            "title": "GetAlls"
+          },
+          {
+            "id": 2,
+            "title": "Get"
+          },
+          {
+            "id": 3,
+            "title": "Create"
+          },
+          {
+            "id": 4,
+            "title": "Update"
+          },
+          {
+            "id": 5,
+            "title": "Delete"
+          },
+          {
+            "id": 6,
+            "title": "CreateUserLog"
+          },
+          {
+            "id": 7,
+            "title": "GetAllLoginLogs"
+          },
+          {
+            "id": 8,
+            "title": "GetLoginLog"
+          },
+          {
+            "id": 9,
+            "title": "DeleteLoginLog"
+          },
+          {
+            "id": 10,
+            "title": "GetAllCurrencies"
+          },
+          {
+            "id": 11,
+            "title": "GetCurrency"
+          },
+          {
+            "id": 12,
+            "title": "CreateCurrency"
+          },
+          {
+            "id": 13,
+            "title": "UpdateCurrency"
+          },
+          {
+            "id": 14,
+            "title": "SetDefaultCurrency"
+          },
+          {
+            "id": 15,
+            "title": "SetRatioCurrency"
+          },
+          {
+            "id": 16,
+            "title": "DeleteCurrency"
+          },
+          {
+            "id": 17,
+            "title": "AllLanguages"
+          },
+          {
+            "id": 18,
+            "title": "SaveSendPushNotification"
+          },
+          {
+            "id": 19,
+            "title": "GetAllPrices"
+          },
+          {
+            "id": 20,
+            "title": "GetAllPriceLanguages"
+          },
+          {
+            "id": 21,
+            "title": "GetPrice"
+          },
+          {
+            "id": 22,
+            "title": "CreatePrice"
+          },
+          {
+            "id": 23,
+            "title": "UpdatePrice"
+          },
+          {
+            "id": 24,
+            "title": "DeletePrice"
+          },
+          {
+            "id": 25,
+            "title": "AdminPrice"
+          },
+          {
+            "id": 26,
+            "title": "GetAllFlags"
+          },
+          {
+            "id": 27,
+            "title": "GetAllFlagLanguages"
+          },
+          {
+            "id": 28,
+            "title": "GetFlag"
+          },
+          {
+            "id": 29,
+            "title": "CreateFlag"
+          },
+          {
+            "id": 30,
+            "title": "UpdateFlag"
+          },
+          {
+            "id": 31,
+            "title": "DeleteFlag"
+          },
+          {
+            "id": 32,
+            "title": "AdminFlag"
+          },
+          {
+            "id": 33,
+            "title": "GetAllActionListeners"
+          },
+          {
+            "id": 34,
+            "title": "GetActionListener"
+          },
+          {
+            "id": 35,
+            "title": "CreateActionListener"
+          },
+          {
+            "id": 36,
+            "title": "UpdateActionListener"
+          },
+          {
+            "id": 37,
+            "title": "DeleteActionListener"
+          },
+          {
+            "id": 38,
+            "title": "AdminActionListener"
+          },
+          {
+            "id": 39,
+            "title": "GetAllActions"
+          },
+          {
+            "id": 40,
+            "title": "GetAction"
+          },
+          {
+            "id": 41,
+            "title": "CreateAction"
+          },
+          {
+            "id": 42,
+            "title": "UpdateAction"
+          },
+          {
+            "id": 43,
+            "title": "DeleteAction"
+          },
+          {
+            "id": 44,
+            "title": "AdminAction"
+          },
+          {
+            "id": 45,
+            "title": "GetAllFilters"
+          },
+          {
+            "id": 46,
+            "title": "GetFilter"
+          },
+          {
+            "id": 47,
+            "title": "CreateFilter"
+          },
+          {
+            "id": 48,
+            "title": "UpdateFilter"
+          },
+          {
+            "id": 49,
+            "title": "DeleteFilter"
+          },
+          {
+            "id": 50,
+            "title": "AdminFilter"
+          },
+          {
+            "id": 51,
+            "title": "GetAllEvents"
+          },
+          {
+            "id": 52,
+            "title": "GetEvent"
+          },
+          {
+            "id": 53,
+            "title": "CreateEvent"
+          },
+          {
+            "id": 54,
+            "title": "UpdateEvent"
+          },
+          {
+            "id": 55,
+            "title": "DeleteEvent"
+          },
+          {
+            "id": 56,
+            "title": "AdminEvent"
+          },
+          {
+            "id": 57,
+            "title": "GetAllListeners"
+          },
+          {
+            "id": 58,
+            "title": "GetListener"
+          },
+          {
+            "id": 59,
+            "title": "CreateListener"
+          },
+          {
+            "id": 60,
+            "title": "UpdateListener"
+          },
+          {
+            "id": 61,
+            "title": "DeleteListener"
+          },
+          {
+            "id": 62,
+            "title": "AdminListener"
+          },
+          {
+            "id": 63,
+            "title": "GetAllEventCategories"
+          },
+          {
+            "id": 64,
+            "title": "GetEventCategory"
+          },
+          {
+            "id": 65,
+            "title": "CreateEventCategory"
+          },
+          {
+            "id": 66,
+            "title": "UpdateEventCategory"
+          },
+          {
+            "id": 67,
+            "title": "DeleteEventCategory"
+          },
+          {
+            "id": 68,
+            "title": "AdminEventCategory"
+          },
+          {
+            "id": 69,
+            "title": "GetAllBarcodes"
+          },
+          {
+            "id": 70,
+            "title": "GetBarcode"
+          },
+          {
+            "id": 71,
+            "title": "CreateBarcode"
+          },
+          {
+            "id": 72,
+            "title": "UpdateBarcode"
+          },
+          {
+            "id": 73,
+            "title": "DeleteBarcode"
+          },
+          {
+            "id": 74,
+            "title": "AdminBarcode"
+          },
+          {
+            "id": 75,
+            "title": "GetAllShippingMethodsLanguages"
+          },
+          {
+            "id": 76,
+            "title": "GetAllShippingMethods"
+          },
+          {
+            "id": 77,
+            "title": "GetShippingMethod"
+          },
+          {
+            "id": 78,
+            "title": "CreateShippingMethod"
+          },
+          {
+            "id": 79,
+            "title": "UpdateShippingMethod"
+          },
+          {
+            "id": 80,
+            "title": "DeleteShippingMethod"
+          },
+          {
+            "id": 81,
+            "title": "AdminShippingMethod"
+          },
+          {
+            "id": 82,
+            "title": "GetAllShippingProfiles"
+          },
+          {
+            "id": 83,
+            "title": "GetShippingProfile"
+          },
+          {
+            "id": 84,
+            "title": "CreateShippingProfile"
+          },
+          {
+            "id": 85,
+            "title": "UpdateShippingProfile"
+          },
+          {
+            "id": 86,
+            "title": "DeleteShippingProfile"
+          },
+          {
+            "id": 87,
+            "title": "AdminShippingProfile"
+          },
+          {
+            "id": 88,
+            "title": "GetAllNumberSeries"
+          },
+          {
+            "id": 89,
+            "title": "GetAllNumberSeriesLanguages"
+          },
+          {
+            "id": 90,
+            "title": "GetNumberSeries"
+          },
+          {
+            "id": 91,
+            "title": "CreateNumberSeries"
+          },
+          {
+            "id": 92,
+            "title": "UpdateNumberSeries"
+          },
+          {
+            "id": 93,
+            "title": "DeleteNumberSeries"
+          },
+          {
+            "id": 94,
+            "title": "GetAllProductRatings"
+          },
+          {
+            "id": 95,
+            "title": "GetProductRating"
+          },
+          {
+            "id": 96,
+            "title": "CreateProductRating"
+          },
+          {
+            "id": 97,
+            "title": "UpdateProductRating"
+          },
+          {
+            "id": 98,
+            "title": "DeleteProductRating"
+          },
+          {
+            "id": 99,
+            "title": "GetAllProductVariationSuppliers"
+          },
+          {
+            "id": 100,
+            "title": "GetProductVariationSupplier"
+          },
+          {
+            "id": 101,
+            "title": "CreateProductVariationSupplier"
+          },
+          {
+            "id": 102,
+            "title": "UpdateProductVariationSupplier"
+          },
+          {
+            "id": 103,
+            "title": "DeleteProductVariationSupplier"
+          },
+          {
+            "id": 104,
+            "title": "AdminProductVariationSupplier"
+          },
+          {
+            "id": 105,
+            "title": "GetAllSuppliers"
+          },
+          {
+            "id": 106,
+            "title": "GetSupplier"
+          },
+          {
+            "id": 107,
+            "title": "CreateSupplier"
+          },
+          {
+            "id": 108,
+            "title": "UpdateSupplier"
+          },
+          {
+            "id": 109,
+            "title": "DeleteSupplier"
+          },
+          {
+            "id": 110,
+            "title": "AdminSupplier"
+          },
+          {
+            "id": 111,
+            "title": "GetAllOrderReturns"
+          },
+          {
+            "id": 112,
+            "title": "GetOrderReturn"
+          },
+          {
+            "id": 113,
+            "title": "CreateOrderReturn"
+          },
+          {
+            "id": 114,
+            "title": "UpdateOrderReturn"
+          },
+          {
+            "id": 115,
+            "title": "DeleteOrderReturn"
+          },
+          {
+            "id": 116,
+            "title": "AdminOrderReturn"
+          },
+          {
+            "id": 117,
+            "title": "GetAllOrderAdvances"
+          },
+          {
+            "id": 118,
+            "title": "GetOrderAdvance"
+          },
+          {
+            "id": 119,
+            "title": "CreateOrderAdvance"
+          },
+          {
+            "id": 120,
+            "title": "UpdateOrderAdvance"
+          },
+          {
+            "id": 121,
+            "title": "DeleteOrderAdvance"
+          },
+          {
+            "id": 122,
+            "title": "AdminOrderAdvance"
+          },
+          {
+            "id": 123,
+            "title": "GetAllProductVariationFiles"
+          },
+          {
+            "id": 124,
+            "title": "GetProductVariationFile"
+          },
+          {
+            "id": 125,
+            "title": "CreateProductVariationFile"
+          },
+          {
+            "id": 126,
+            "title": "UpdateProductVariationFile"
+          },
+          {
+            "id": 127,
+            "title": "DeleteProductVariationFile"
+          },
+          {
+            "id": 128,
+            "title": "AdminProductVariationFile"
+          },
+          {
+            "id": 129,
+            "title": "GetAllProductVariationPoints"
+          },
+          {
+            "id": 130,
+            "title": "GetProductVariationPoint"
+          },
+          {
+            "id": 131,
+            "title": "CreateProductVariationPoint"
+          },
+          {
+            "id": 132,
+            "title": "UpdateProductVariationPoint"
+          },
+          {
+            "id": 133,
+            "title": "DeleteProductVariationPoint"
+          },
+          {
+            "id": 134,
+            "title": "AdminProductVariationPoint"
+          },
+          {
+            "id": 135,
+            "title": "GetAllInventories"
+          },
+          {
+            "id": 136,
+            "title": "GetInventory"
+          },
+          {
+            "id": 137,
+            "title": "AdminInventory"
+          },
+          {
+            "id": 138,
+            "title": "GetAllStorageVariations"
+          },
+          {
+            "id": 139,
+            "title": "GetStorageVariation"
+          },
+          {
+            "id": 140,
+            "title": "CreateStorageVariation"
+          },
+          {
+            "id": 141,
+            "title": "UpdateStorageVariation"
+          },
+          {
+            "id": 142,
+            "title": "DeleteStorageVariation"
+          },
+          {
+            "id": 143,
+            "title": "AdminStorageVariation"
+          },
+          {
+            "id": 144,
+            "title": "GetAllPickingJournals"
+          },
+          {
+            "id": 145,
+            "title": "GetPickingJournal"
+          },
+          {
+            "id": 146,
+            "title": "CreatePickingJournal"
+          },
+          {
+            "id": 147,
+            "title": "UpdatePickingJournal"
+          },
+          {
+            "id": 148,
+            "title": "DeletePickingJournal"
+          },
+          {
+            "id": 149,
+            "title": "AdminPickingJournal"
+          },
+          {
+            "id": 150,
+            "title": "GetAllPackingTypesLanguages"
+          },
+          {
+            "id": 151,
+            "title": "GetAllPackingTypes"
+          },
+          {
+            "id": 152,
+            "title": "GetPackingType"
+          },
+          {
+            "id": 153,
+            "title": "CreatePackingType"
+          },
+          {
+            "id": 154,
+            "title": "UpdatePackingType"
+          },
+          {
+            "id": 155,
+            "title": "DeletePackingType"
+          },
+          {
+            "id": 156,
+            "title": "AdminPackingType"
+          },
+          {
+            "id": 157,
+            "title": "GetAllPackingJournals"
+          },
+          {
+            "id": 158,
+            "title": "GetPackingJournal"
+          },
+          {
+            "id": 159,
+            "title": "CreatePackingJournal"
+          },
+          {
+            "id": 160,
+            "title": "UpdatePackingJournal"
+          },
+          {
+            "id": 161,
+            "title": "DeletePackingJournal"
+          },
+          {
+            "id": 162,
+            "title": "AdminPackingJournal"
+          },
+          {
+            "id": 163,
+            "title": "GetAllIncomingJournals"
+          },
+          {
+            "id": 164,
+            "title": "GetIncomingJournal"
+          },
+          {
+            "id": 165,
+            "title": "CreateIncomingJournal"
+          },
+          {
+            "id": 166,
+            "title": "UpdateIncomingJournal"
+          },
+          {
+            "id": 167,
+            "title": "DeleteIncomingJournal"
+          },
+          {
+            "id": 168,
+            "title": "AdminIncomingJournal"
+          },
+          {
+            "id": 169,
+            "title": "GetAllPeople"
+          },
+          {
+            "id": 170,
+            "title": "GetPeople"
+          },
+          {
+            "id": 171,
+            "title": "CreatePeople"
+          },
+          {
+            "id": 172,
+            "title": "UpdatePeople"
+          },
+          {
+            "id": 173,
+            "title": "DeletePeople"
+          },
+          {
+            "id": 174,
+            "title": "GetAllWarehouses"
+          },
+          {
+            "id": 175,
+            "title": "GetAllWarehouseLanguages"
+          },
+          {
+            "id": 176,
+            "title": "GetWarehouse"
+          },
+          {
+            "id": 177,
+            "title": "CreateWarehouse"
+          },
+          {
+            "id": 178,
+            "title": "UpdateWarehouse"
+          },
+          {
+            "id": 179,
+            "title": "DeleteWarehouse"
+          },
+          {
+            "id": 180,
+            "title": "AdminWarehouse"
+          },
+          {
+            "id": 181,
+            "title": "GetAllAttributeTypesLanguages"
+          },
+          {
+            "id": 182,
+            "title": "GetAllAttributeTypes"
+          },
+          {
+            "id": 183,
+            "title": "GetAttributeType"
+          },
+          {
+            "id": 184,
+            "title": "CreateAttributeType"
+          },
+          {
+            "id": 185,
+            "title": "UpdateAttributeType"
+          },
+          {
+            "id": 186,
+            "title": "DeleteAttributeType"
+          },
+          {
+            "id": 187,
+            "title": "ManageGlobalAttributeType"
+          },
+          {
+            "id": 188,
+            "title": "AdminAttributeType"
+          },
+          {
+            "id": 189,
+            "title": "GetAllProductLanguages"
+          },
+          {
+            "id": 190,
+            "title": "GetAllProducts"
+          },
+          {
+            "id": 191,
+            "title": "GetProduct"
+          },
+          {
+            "id": 192,
+            "title": "CreateProduct"
+          },
+          {
+            "id": 193,
+            "title": "UpdateProduct"
+          },
+          {
+            "id": 194,
+            "title": "DeleteProduct"
+          },
+          {
+            "id": 195,
+            "title": "AdminProduct"
+          },
+          {
+            "id": 196,
+            "title": "GetAllPriceTypes"
+          },
+          {
+            "id": 197,
+            "title": "GetAllPriceTypeLanguages"
+          },
+          {
+            "id": 198,
+            "title": "GetPriceType"
+          },
+          {
+            "id": 199,
+            "title": "CreatePriceType"
+          },
+          {
+            "id": 200,
+            "title": "DeletePriceType"
+          },
+          {
+            "id": 201,
+            "title": "UpdatePriceType"
+          },
+          {
+            "id": 202,
+            "title": "AminPriceType"
+          },
+          {
+            "id": 203,
+            "title": "GetAllFiles"
+          },
+          {
+            "id": 204,
+            "title": "GetFile"
+          },
+          {
+            "id": 205,
+            "title": "CreateFile"
+          },
+          {
+            "id": 206,
+            "title": "DeleteFile"
+          },
+          {
+            "id": 207,
+            "title": "GetAllEmails"
+          },
+          {
+            "id": 208,
+            "title": "GetEmail"
+          },
+          {
+            "id": 209,
+            "title": "CreateEmail"
+          },
+          {
+            "id": 210,
+            "title": "DeleteEmail"
+          },
+          {
+            "id": 211,
+            "title": "UpdateEmail"
+          },
+          {
+            "id": 212,
+            "title": "AdminEmail"
+          },
+          {
+            "id": 213,
+            "title": "GetAllPhones"
+          },
+          {
+            "id": 214,
+            "title": "GetPhone"
+          },
+          {
+            "id": 215,
+            "title": "CreatePhone"
+          },
+          {
+            "id": 216,
+            "title": "DeletePhone"
+          },
+          {
+            "id": 217,
+            "title": "UpdatePhone"
+          },
+          {
+            "id": 218,
+            "title": "GetAllUserFavorites"
+          },
+          {
+            "id": 219,
+            "title": "UpdateUserFavorites"
+          },
+          {
+            "id": 220,
+            "title": "GetAllUsers"
+          },
+          {
+            "id": 221,
+            "title": "GetAllUserRoles"
+          },
+          {
+            "id": 222,
+            "title": "GetUser"
+          },
+          {
+            "id": 223,
+            "title": "CreateUser"
+          },
+          {
+            "id": 224,
+            "title": "UpdateUser"
+          },
+          {
+            "id": 225,
+            "title": "DeleteUser"
+          },
+          {
+            "id": 226,
+            "title": "AdminUser"
+          },
+          {
+            "id": 227,
+            "title": "AdminManageUser"
+          },
+          {
+            "id": 228,
+            "title": "DeleteUserRole"
+          },
+          {
+            "id": 229,
+            "title": "GetRealPerson"
+          },
+          {
+            "id": 230,
+            "title": "UpdateUserProfile"
+          },
+          {
+            "id": 231,
+            "title": "UpdateUserCommunicationByLetter"
+          },
+          {
+            "id": 232,
+            "title": "GetAllRoles"
+          },
+          {
+            "id": 233,
+            "title": "GetAllRoleLanguages"
+          },
+          {
+            "id": 234,
+            "title": "GetRole"
+          },
+          {
+            "id": 235,
+            "title": "CreateRole"
+          },
+          {
+            "id": 236,
+            "title": "UpdateRole"
+          },
+          {
+            "id": 237,
+            "title": "DeleteRole"
+          },
+          {
+            "id": 238,
+            "title": "GetAllNoSeriePositions"
+          },
+          {
+            "id": 239,
+            "title": "GetNoSeriePosition"
+          },
+          {
+            "id": 240,
+            "title": "CreateNoSeriePosition"
+          },
+          {
+            "id": 241,
+            "title": "UpdateNoSeriePosition"
+          },
+          {
+            "id": 242,
+            "title": "DeleteNoSeriePosition"
+          },
+          {
+            "id": 243,
+            "title": "GetAllOrderStatus"
+          },
+          {
+            "id": 244,
+            "title": "GetAllOrderStatusLanguages"
+          },
+          {
+            "id": 245,
+            "title": "GetOrderStatus"
+          },
+          {
+            "id": 246,
+            "title": "CreateOrderStatus"
+          },
+          {
+            "id": 247,
+            "title": "UpdateOrderStatus"
+          },
+          {
+            "id": 248,
+            "title": "DeleteOrderStatus"
+          },
+          {
+            "id": 249,
+            "title": "AdminOrderStatus"
+          },
+          {
+            "id": 250,
+            "title": "GetAllAvailabilities"
+          },
+          {
+            "id": 251,
+            "title": "GetAllAvailabilityLanguages"
+          },
+          {
+            "id": 252,
+            "title": "GetAvailability"
+          },
+          {
+            "id": 253,
+            "title": "CreateAvailability"
+          },
+          {
+            "id": 254,
+            "title": "UpdateAvailability"
+          },
+          {
+            "id": 255,
+            "title": "DeleteAvailability"
+          },
+          {
+            "id": 256,
+            "title": "AdminAvailability"
+          },
+          {
+            "id": 257,
+            "title": "GetAllPermissions"
+          },
+          {
+            "id": 258,
+            "title": "GetPermission"
+          },
+          {
+            "id": 259,
+            "title": "GetAllSaleSystems"
+          },
+          {
+            "id": 260,
+            "title": "GetSaleSystem"
+          },
+          {
+            "id": 261,
+            "title": "CreateSaleSystem"
+          },
+          {
+            "id": 262,
+            "title": "UpdateSaleSystem"
+          },
+          {
+            "id": 263,
+            "title": "DeleteSaleSystem"
+          },
+          {
+            "id": 264,
+            "title": "GetAllPartners"
+          },
+          {
+            "id": 265,
+            "title": "GetPartner"
+          },
+          {
+            "id": 266,
+            "title": "CreatePartner"
+          },
+          {
+            "id": 267,
+            "title": "UpdatePartner"
+          },
+          {
+            "id": 268,
+            "title": "DeletePartner"
+          },
+          {
+            "id": 269,
+            "title": "AdminPartner"
+          },
+          {
+            "id": 270,
+            "title": "GetAllVats"
+          },
+          {
+            "id": 271,
+            "title": "GetVat"
+          },
+          {
+            "id": 272,
+            "title": "CreateVat"
+          },
+          {
+            "id": 273,
+            "title": "UpdateVat"
+          },
+          {
+            "id": 274,
+            "title": "DeleteVat"
+          },
+          {
+            "id": 275,
+            "title": "GetAllPaymentMethodTypes"
+          },
+          {
+            "id": 276,
+            "title": "GetPaymentMethodType"
+          },
+          {
+            "id": 277,
+            "title": "GetAllCountryLanguages"
+          },
+          {
+            "id": 278,
+            "title": "UpdateCountryLanguages"
+          },
+          {
+            "id": 279,
+            "title": "CreateCountryLanguage"
+          },
+          {
+            "id": 280,
+            "title": "DeleteCountryLanguage"
+          },
+          {
+            "id": 281,
+            "title": "GetAllCountries"
+          },
+          {
+            "id": 282,
+            "title": "GetCountry"
+          },
+          {
+            "id": 283,
+            "title": "CreateCountry"
+          },
+          {
+            "id": 284,
+            "title": "UpdateCountry"
+          },
+          {
+            "id": 285,
+            "title": "DeleteCountry"
+          },
+          {
+            "id": 286,
+            "title": "GetAllContactGroups"
+          },
+          {
+            "id": 287,
+            "title": "GetAllContactGroupLanguages"
+          },
+          {
+            "id": 288,
+            "title": "GetContactGroup"
+          },
+          {
+            "id": 289,
+            "title": "CreateContactGroup"
+          },
+          {
+            "id": 290,
+            "title": "UpdateContactGroup"
+          },
+          {
+            "id": 291,
+            "title": "DeleteContactGroup"
+          },
+          {
+            "id": 292,
+            "title": "AdminContactGroup"
+          },
+          {
+            "id": 293,
+            "title": "GetAllContactuses"
+          },
+          {
+            "id": 294,
+            "title": "GetContactUs"
+          },
+          {
+            "id": 295,
+            "title": "CreateContactUs"
+          },
+          {
+            "id": 296,
+            "title": "UpdateContactUs"
+          },
+          {
+            "id": 297,
+            "title": "DeleteContactUs"
+          },
+          {
+            "id": 298,
+            "title": "AdminContactUs"
+          },
+          {
+            "id": 299,
+            "title": "GetAllTemplates"
+          },
+          {
+            "id": 300,
+            "title": "GetAllTemplateLanguages"
+          },
+          {
+            "id": 301,
+            "title": "GetTemplate"
+          },
+          {
+            "id": 302,
+            "title": "CreateTemplate"
+          },
+          {
+            "id": 303,
+            "title": "UpdateTemplate"
+          },
+          {
+            "id": 304,
+            "title": "DeleteTemplate"
+          },
+          {
+            "id": 305,
+            "title": "GetAllAddresses"
+          },
+          {
+            "id": 306,
+            "title": "GetAddress"
+          },
+          {
+            "id": 307,
+            "title": "CreateAddress"
+          },
+          {
+            "id": 308,
+            "title": "UpdateAddress"
+          },
+          {
+            "id": 309,
+            "title": "DeleteAddress"
+          },
+          {
+            "id": 310,
+            "title": "AdminAddress"
+          },
+          {
+            "id": 311,
+            "title": "GetAllUserTypesLanguages"
+          },
+          {
+            "id": 312,
+            "title": "GetAllUserTypes"
+          },
+          {
+            "id": 313,
+            "title": "GetUserType"
+          },
+          {
+            "id": 314,
+            "title": "CreateUserType"
+          },
+          {
+            "id": 315,
+            "title": "UpdateUserType"
+          },
+          {
+            "id": 316,
+            "title": "DeleteUserType"
+          },
+          {
+            "id": 317,
+            "title": "ManageGlobalProductVariation"
+          },
+          {
+            "id": 318,
+            "title": "GetAllProductVariationsLanguages"
+          },
+          {
+            "id": 319,
+            "title": "GetAllProductVariationMulti"
+          },
+          {
+            "id": 320,
+            "title": "UpdateProductVariationMulti"
+          },
+          {
+            "id": 321,
+            "title": "GetAllProductVariationCross"
+          },
+          {
+            "id": 322,
+            "title": "UpdateProductVariationCross"
+          },
+          {
+            "id": 323,
+            "title": "GetAllProductVariations"
+          },
+          {
+            "id": 324,
+            "title": "GetProductVariation"
+          },
+          {
+            "id": 325,
+            "title": "CreateProductVariation"
+          },
+          {
+            "id": 326,
+            "title": "UpdateProductVariation"
+          },
+          {
+            "id": 327,
+            "title": "DeleteProductVariation"
+          },
+          {
+            "id": 328,
+            "title": "UpdateProductVariationCategory"
+          },
+          {
+            "id": 329,
+            "title": "AdminProductVariation"
+          },
+          {
+            "id": 330,
+            "title": "GetAllSubdomainsLanguages"
+          },
+          {
+            "id": 331,
+            "title": "GetAllSubdomains"
+          },
+          {
+            "id": 332,
+            "title": "GetSubdomain"
+          },
+          {
+            "id": 333,
+            "title": "CreateSubdomain"
+          },
+          {
+            "id": 334,
+            "title": "UpdateSubdomain"
+          },
+          {
+            "id": 335,
+            "title": "DeleteSubdomain"
+          },
+          {
+            "id": 336,
+            "title": "AdminSubdomain"
+          },
+          {
+            "id": 337,
+            "title": "ApproveSubdomain"
+          },
+          {
+            "id": 338,
+            "title": "GetAllAdditionalBonuses"
+          },
+          {
+            "id": 339,
+            "title": "GetAdditionalBonus"
+          },
+          {
+            "id": 340,
+            "title": "CreateAdditionalBonus"
+          },
+          {
+            "id": 341,
+            "title": "UpdateAdditionalBonus"
+          },
+          {
+            "id": 342,
+            "title": "DeleteAdditionalBonus"
+          },
+          {
+            "id": 343,
+            "title": "GetAllBuildings"
+          },
+          {
+            "id": 344,
+            "title": "GetAllBuildingLanguages"
+          },
+          {
+            "id": 345,
+            "title": "GetBuilding"
+          },
+          {
+            "id": 346,
+            "title": "CreateBuilding"
+          },
+          {
+            "id": 347,
+            "title": "UpdateBuilding"
+          },
+          {
+            "id": 348,
+            "title": "DeleteBuilding"
+          },
+          {
+            "id": 349,
+            "title": "AdminBuilding"
+          },
+          {
+            "id": 350,
+            "title": "GetAllFloors"
+          },
+          {
+            "id": 351,
+            "title": "GetAllFloorLanguages"
+          },
+          {
+            "id": 352,
+            "title": "GetFloor"
+          },
+          {
+            "id": 353,
+            "title": "CreateFloor"
+          },
+          {
+            "id": 354,
+            "title": "UpdateFloor"
+          },
+          {
+            "id": 355,
+            "title": "DeleteFloor"
+          },
+          {
+            "id": 356,
+            "title": "AdminFloor"
+          },
+          {
+            "id": 357,
+            "title": "GetAllRegals"
+          },
+          {
+            "id": 358,
+            "title": "GetAllRegalLanguages"
+          },
+          {
+            "id": 359,
+            "title": "GetRegal"
+          },
+          {
+            "id": 360,
+            "title": "CreateRegal"
+          },
+          {
+            "id": 361,
+            "title": "UpdateRegal"
+          },
+          {
+            "id": 362,
+            "title": "DeleteRegal"
+          },
+          {
+            "id": 363,
+            "title": "AdminRegal"
+          },
+          {
+            "id": 364,
+            "title": "GetAllAdjustmentJournals"
+          },
+          {
+            "id": 365,
+            "title": "GetAllAdjustmentJournalLanguages"
+          },
+          {
+            "id": 366,
+            "title": "GetAdjustmentJournal"
+          },
+          {
+            "id": 367,
+            "title": "CreateAdjustmentJournal"
+          },
+          {
+            "id": 368,
+            "title": "UpdateAdjustmentJournal"
+          },
+          {
+            "id": 369,
+            "title": "DeleteAdjustmentJournal"
+          },
+          {
+            "id": 370,
+            "title": "AdminAdjustmentJournal"
+          },
+          {
+            "id": 371,
+            "title": "GetAllCountingJournals"
+          },
+          {
+            "id": 372,
+            "title": "GetAllCountingJournalLanguages"
+          },
+          {
+            "id": 373,
+            "title": "GetCountingJournal"
+          },
+          {
+            "id": 374,
+            "title": "CreateCountingJournal"
+          },
+          {
+            "id": 375,
+            "title": "UpdateCountingJournal"
+          },
+          {
+            "id": 376,
+            "title": "DeleteCountingJournal"
+          },
+          {
+            "id": 377,
+            "title": "GetAllShelves"
+          },
+          {
+            "id": 378,
+            "title": "GetAllShelfLanguages"
+          },
+          {
+            "id": 379,
+            "title": "GetShelf"
+          },
+          {
+            "id": 380,
+            "title": "CreateShelf"
+          },
+          {
+            "id": 381,
+            "title": "UpdateShelf"
+          },
+          {
+            "id": 382,
+            "title": "DeleteShelf"
+          },
+          {
+            "id": 383,
+            "title": "AdminShelf"
+          },
+          {
+            "id": 384,
+            "title": "GetAllPaymentMethodLanguages"
+          },
+          {
+            "id": 385,
+            "title": "GetAllPaymentMethods"
+          },
+          {
+            "id": 386,
+            "title": "GetPaymentMethod"
+          },
+          {
+            "id": 387,
+            "title": "CreatePaymentMethod"
+          },
+          {
+            "id": 388,
+            "title": "UpdatePaymentMethod"
+          },
+          {
+            "id": 389,
+            "title": "DeletePaymentMethod"
+          },
+          {
+            "id": 390,
+            "title": "ManageGlobalPaymentMethod"
+          },
+          {
+            "id": 391,
+            "title": "AdminPaymentMethod"
+          },
+          {
+            "id": 392,
+            "title": "GetAllMovementJournalsLanguages"
+          },
+          {
+            "id": 393,
+            "title": "GetAllMovementJournals"
+          },
+          {
+            "id": 394,
+            "title": "GetMovementJournal"
+          },
+          {
+            "id": 395,
+            "title": "CreateMovementJournal"
+          },
+          {
+            "id": 396,
+            "title": "UpdateMovementJournal"
+          },
+          {
+            "id": 397,
+            "title": "DeleteMovementJournal"
+          },
+          {
+            "id": 398,
+            "title": "AdminMovementJournal"
+          },
+          {
+            "id": 399,
+            "title": "GetAllProductVariationCategories"
+          },
+          {
+            "id": 400,
+            "title": "GetAllProductVariationCategoryLanguages"
+          },
+          {
+            "id": 401,
+            "title": "GetProductVariationCategory"
+          },
+          {
+            "id": 402,
+            "title": "CreateProductVariationCategory"
+          },
+          {
+            "id": 403,
+            "title": "DeleteProductVariationCategory"
+          },
+          {
+            "id": 404,
+            "title": "AdminProductVariationCategory"
+          },
+          {
+            "id": 405,
+            "title": "ManageGlobalProductVariationCategory"
+          },
+          {
+            "id": 406,
+            "title": "GetAllAttributes"
+          },
+          {
+            "id": 407,
+            "title": "GetAllAttributeLanguages"
+          },
+          {
+            "id": 408,
+            "title": "GetAttribute"
+          },
+          {
+            "id": 409,
+            "title": "CreateAttribute"
+          },
+          {
+            "id": 410,
+            "title": "UpdateAttribute"
+          },
+          {
+            "id": 411,
+            "title": "DeleteAttribute"
+          },
+          {
+            "id": 412,
+            "title": "AdminAttribute"
+          },
+          {
+            "id": 413,
+            "title": "GetAllUserVariationPrices"
+          },
+          {
+            "id": 414,
+            "title": "GetUserVariationPrice"
+          },
+          {
+            "id": 415,
+            "title": "CreateUserVariationPrice"
+          },
+          {
+            "id": 416,
+            "title": "UpdateUserVariationPrice"
+          },
+          {
+            "id": 417,
+            "title": "DeleteUserVariationPrice"
+          },
+          {
+            "id": 418,
+            "title": "GetAllZones"
+          },
+          {
+            "id": 419,
+            "title": "GetAllZoneLanguages"
+          },
+          {
+            "id": 420,
+            "title": "GetZone"
+          },
+          {
+            "id": 421,
+            "title": "CreateZone"
+          },
+          {
+            "id": 422,
+            "title": "UpdateZone"
+          },
+          {
+            "id": 423,
+            "title": "DeleteZone"
+          },
+          {
+            "id": 424,
+            "title": "AdminZone"
+          },
+          {
+            "id": 425,
+            "title": "GetAllCustomTariffs"
+          },
+          {
+            "id": 426,
+            "title": "GetCustomTariff"
+          },
+          {
+            "id": 427,
+            "title": "CreateCustomTariff"
+          },
+          {
+            "id": 428,
+            "title": "UpdateCustomTariff"
+          },
+          {
+            "id": 429,
+            "title": "DeleteCustomTariff"
+          },
+          {
+            "id": 430,
+            "title": "GetAllDocumentTypes"
+          },
+          {
+            "id": 431,
+            "title": "GetAllDocumentTypeLanguages"
+          },
+          {
+            "id": 432,
+            "title": "GetDocumentType"
+          },
+          {
+            "id": 433,
+            "title": "CreateDocumentType"
+          },
+          {
+            "id": 434,
+            "title": "UpdateDocumentType"
+          },
+          {
+            "id": 435,
+            "title": "DeleteDocumentType"
+          },
+          {
+            "id": 436,
+            "title": "GetAllProductVariationPrices"
+          },
+          {
+            "id": 437,
+            "title": "GetProductVariationPrice"
+          },
+          {
+            "id": 438,
+            "title": "CreateProductVariationPrice"
+          },
+          {
+            "id": 439,
+            "title": "UpdateProductVariationPrice"
+          },
+          {
+            "id": 440,
+            "title": "DeleteProductVariationPrice"
+          },
+          {
+            "id": 441,
+            "title": "AdminProductVariationPrice"
+          },
+          {
+            "id": 442,
+            "title": "GetAllOrderOffers"
+          },
+          {
+            "id": 443,
+            "title": "GetOrderOffer"
+          },
+          {
+            "id": 444,
+            "title": "CreateOrderOffer"
+          },
+          {
+            "id": 445,
+            "title": "UpdateOrderOffer"
+          },
+          {
+            "id": 446,
+            "title": "DeleteOrderOffer"
+          },
+          {
+            "id": 447,
+            "title": "AdminOrderOffer"
+          },
+          {
+            "id": 448,
+            "title": "ManageGlobalOrderOffer"
+          },
+          {
+            "id": 449,
+            "title": "GetAllOrderSales"
+          },
+          {
+            "id": 450,
+            "title": "GetOrderSale"
+          },
+          {
+            "id": 451,
+            "title": "CreateOrderSale"
+          },
+          {
+            "id": 452,
+            "title": "UpdateOrderSale"
+          },
+          {
+            "id": 453,
+            "title": "DeleteOrderSale"
+          },
+          {
+            "id": 454,
+            "title": "AdminOrderSale"
+          },
+          {
+            "id": 455,
+            "title": "ManageGlobalOrderSale"
+          },
+          {
+            "id": 456,
+            "title": "GetAllHistoryOrderSales"
+          },
+          {
+            "id": 457,
+            "title": "GetHistoryOrderSale"
+          },
+          {
+            "id": 458,
+            "title": "GetAllOrderCreditNotes"
+          },
+          {
+            "id": 459,
+            "title": "GetAllOrderCreditNoteLanguages"
+          },
+          {
+            "id": 460,
+            "title": "GetOrderCreditNote"
+          },
+          {
+            "id": 461,
+            "title": "CreateOrderCreditNote"
+          },
+          {
+            "id": 462,
+            "title": "UpdateOrderCreditNote"
+          },
+          {
+            "id": 463,
+            "title": "DeleteOrderCreditNote"
+          },
+          {
+            "id": 464,
+            "title": "AdminOrderCreditNote"
+          },
+          {
+            "id": 465,
+            "title": "ManageGlobalOrderCreditNote"
+          },
+          {
+            "id": 466,
+            "title": "GetAllOrderPurchases"
+          },
+          {
+            "id": 467,
+            "title": "GetOrderPurchase"
+          },
+          {
+            "id": 468,
+            "title": "CreateOrderPurchase"
+          },
+          {
+            "id": 469,
+            "title": "UpdateOrderPurchase"
+          },
+          {
+            "id": 470,
+            "title": "DeleteOrderPurchase"
+          },
+          {
+            "id": 471,
+            "title": "AdminOrderPurchase"
+          },
+          {
+            "id": 472,
+            "title": "GetAllTemplateSettings"
+          },
+          {
+            "id": 473,
+            "title": "GetTemplateSetting"
+          },
+          {
+            "id": 474,
+            "title": "GetSetting"
+          },
+          {
+            "id": 475,
+            "title": "CreateSetting"
+          },
+          {
+            "id": 476,
+            "title": "UpdateSetting"
+          },
+          {
+            "id": 477,
+            "title": "AdminSetting"
+          },
+          {
+            "id": 478,
+            "title": "GetAllOrderMultiples"
+          },
+          {
+            "id": 479,
+            "title": "GetOrderMultiple"
+          },
+          {
+            "id": 480,
+            "title": "CreateOrderMultiple"
+          },
+          {
+            "id": 481,
+            "title": "UpdateOrderMultiple"
+          },
+          {
+            "id": 482,
+            "title": "DeleteOrderMultiple"
+          },
+          {
+            "id": 483,
+            "title": "AdminOrderMultiple"
+          },
+          {
+            "id": 484,
+            "title": "GetAllOrderPositionTypes"
+          },
+          {
+            "id": 485,
+            "title": "GetAllOrderDeliveries"
+          },
+          {
+            "id": 486,
+            "title": "GetOrderDelivery"
+          },
+          {
+            "id": 487,
+            "title": "CreateOrderDelivery"
+          },
+          {
+            "id": 488,
+            "title": "UpdateOrderDelivery"
+          },
+          {
+            "id": 489,
+            "title": "DeleteOrderDelivery"
+          },
+          {
+            "id": 490,
+            "title": "AdminOrderDelivery"
+          },
+          {
+            "id": 491,
+            "title": "GetAllPackages"
+          },
+          {
+            "id": 492,
+            "title": "GetPackage"
+          },
+          {
+            "id": 493,
+            "title": "CreatePackage"
+          },
+          {
+            "id": 494,
+            "title": "UpdatePackage"
+          },
+          {
+            "id": 495,
+            "title": "DeletePackage"
+          },
+          {
+            "id": 496,
+            "title": "AdminPackage"
+          },
+          {
+            "id": 497,
+            "title": "ManageGlobalPackage"
+          },
+          {
+            "id": 498,
+            "title": "GetAllOrderWarranties"
+          },
+          {
+            "id": 499,
+            "title": "GetOrderWarranty"
+          },
+          {
+            "id": 500,
+            "title": "CreateOrderWarranty"
+          },
+          {
+            "id": 501,
+            "title": "UpdateOrderWarranty"
+          },
+          {
+            "id": 502,
+            "title": "DeleteOrderWarranty"
+          },
+          {
+            "id": 503,
+            "title": "AdminOrderWarranty"
+          },
+          {
+            "id": 504,
+            "title": "GetAllOrderRepairs"
+          },
+          {
+            "id": 505,
+            "title": "GetOrderRepair"
+          },
+          {
+            "id": 506,
+            "title": "CreateOrderRepair"
+          },
+          {
+            "id": 507,
+            "title": "UpdateOrderRepair"
+          },
+          {
+            "id": 508,
+            "title": "DeleteOrderRepair"
+          },
+          {
+            "id": 509,
+            "title": "AdminOrderRepair"
+          },
+          {
+            "id": 510,
+            "title": "GetAllPayments"
+          },
+          {
+            "id": 511,
+            "title": "GetPayment"
+          },
+          {
+            "id": 512,
+            "title": "CreatePayment"
+          },
+          {
+            "id": 513,
+            "title": "UpdatePayment"
+          },
+          {
+            "id": 514,
+            "title": "DeletePayment"
+          },
+          {
+            "id": 515,
+            "title": "AdminPayment"
+          },
+          {
+            "id": 516,
+            "title": "GetAllPaymentTermsLanguages"
+          },
+          {
+            "id": 517,
+            "title": "GetAllPaymentTerms"
+          },
+          {
+            "id": 518,
+            "title": "GetPaymentTerm"
+          },
+          {
+            "id": 519,
+            "title": "CreatePaymentTerm"
+          },
+          {
+            "id": 520,
+            "title": "UpdatePaymentTerm"
+          },
+          {
+            "id": 521,
+            "title": "DeletePaymentTerm"
+          },
+          {
+            "id": 522,
+            "title": "AdminPaymentTerm"
+          },
+          {
+            "id": 523,
+            "title": "GetAllOrderSubscriptions"
+          },
+          {
+            "id": 524,
+            "title": "GetOrderSubscription"
+          },
+          {
+            "id": 525,
+            "title": "CreateOrderSubscription"
+          },
+          {
+            "id": 526,
+            "title": "UpdateOrderSubscription"
+          },
+          {
+            "id": 527,
+            "title": "DeleteOrderSubscription"
+          },
+          {
+            "id": 528,
+            "title": "AdminOrderSubscription"
+          },
+          {
+            "id": 529,
+            "title": "ManageGlobalOrderSubscription"
+          },
+          {
+            "id": 530,
+            "title": "UpdateLanguage"
+          },
+          {
+            "id": 531,
+            "title": "GetBasket"
+          },
+          {
+            "id": 532,
+            "title": "AddToBasket"
+          },
+          {
+            "id": 533,
+            "title": "EmptyBasket"
+          },
+          {
+            "id": 534,
+            "title": "DeleteBasket"
+          },
+          {
+            "id": 535,
+            "title": "AdminBasket"
+          },
+          {
+            "id": 536,
+            "title": "GetAllComments"
+          },
+          {
+            "id": 537,
+            "title": "GetComment"
+          },
+          {
+            "id": 538,
+            "title": "CreateComment"
+          },
+          {
+            "id": 539,
+            "title": "UpdateComment"
+          },
+          {
+            "id": 540,
+            "title": "DeleteComment"
+          },
+          {
+            "id": 541,
+            "title": "AdminComment"
+          },
+          {
+            "id": 542,
+            "title": "GetAllOutgoingJournals"
+          },
+          {
+            "id": 543,
+            "title": "GetOutgoingJournal"
+          },
+          {
+            "id": 544,
+            "title": "CreateOutgoingJournal"
+          },
+          {
+            "id": 545,
+            "title": "UpdateOutgoingJournal"
+          },
+          {
+            "id": 546,
+            "title": "DeleteOutgoingJournal"
+          },
+          {
+            "id": 547,
+            "title": "AdminOutgoingJournal"
+          },
+          {
+            "id": 548,
+            "title": "GetAllCoupons"
+          },
+          {
+            "id": 549,
+            "title": "GetCoupon"
+          },
+          {
+            "id": 550,
+            "title": "CreateCoupon"
+          },
+          {
+            "id": 551,
+            "title": "UpdateCoupon"
+          },
+          {
+            "id": 552,
+            "title": "DeleteCoupon"
+          },
+          {
+            "id": 553,
+            "title": "AdminCoupon"
+          },
+          {
+            "id": 554,
+            "title": "GetAllSubscribes"
+          },
+          {
+            "id": 555,
+            "title": "AdminSubscribe"
+          },
+          {
+            "id": 556,
+            "title": "GetAllProductCategories"
+          },
+          {
+            "id": 557,
+            "title": "GetAllProductCategoryLanguages"
+          },
+          {
+            "id": 558,
+            "title": "GetProductCategory"
+          },
+          {
+            "id": 559,
+            "title": "CreateProductCategory"
+          },
+          {
+            "id": 560,
+            "title": "UpdateProductCategory"
+          },
+          {
+            "id": 561,
+            "title": "DeleteProductCategory"
+          },
+          {
+            "id": 562,
+            "title": "AdminProductCategory"
+          },
+          {
+            "id": 563,
+            "title": "ManageGlobalProductCategory"
+          },
+          {
+            "id": 564,
+            "title": "GetAllLegalConditionSettingsLanguages"
+          },
+          {
+            "id": 565,
+            "title": "GetAllLegalConditionSettings"
+          },
+          {
+            "id": 566,
+            "title": "GetLegalConditionSetting"
+          },
+          {
+            "id": 567,
+            "title": "CreateLegalConditionSetting"
+          },
+          {
+            "id": 568,
+            "title": "UpdateLegalConditionSetting"
+          },
+          {
+            "id": 569,
+            "title": "GetAllUnitLanguages"
+          },
+          {
+            "id": 570,
+            "title": "ValidationVat"
+          },
+          {
+            "id": 571,
+            "title": "InvoiceOrderSale"
+          },
+          {
+            "id": 572,
+            "title": "GetAllLegalLanguages"
+          },
+          {
+            "id": 573,
+            "title": "GetAllLegals"
+          },
+          {
+            "id": 574,
+            "title": "GetLegal"
+          },
+          {
+            "id": 575,
+            "title": "CreateLegal"
+          },
+          {
+            "id": 576,
+            "title": "UpdateLegal"
+          },
+          {
+            "id": 577,
+            "title": "CreateLegalDisclosure"
+          },
+          {
+            "id": 578,
+            "title": "UpdateLegalDisclosure"
+          },
+          {
+            "id": 579,
+            "title": "InvoiceCancellationOrderSale"
+          },
+          {
+            "id": 580,
+            "title": "CopyOrderSale"
+          },
+          {
+            "id": 581,
+            "title": "UpdateOrderSaleDunningLevel"
+          },
+          {
+            "id": 582,
+            "title": "GetAllExcelExports"
+          },
+          {
+            "id": 583,
+            "title": "DownloadExcelExport"
+          },
+          {
+            "id": 584,
+            "title": "CreateExcelExport"
+          },
+          {
+            "id": 585,
+            "title": "UpdateExcelExport"
+          },
+          {
+            "id": 586,
+            "title": "GetExcelExport"
+          },
+          {
+            "id": 587,
+            "title": "DeleteExcelExport"
+          },
+          {
+            "id": 588,
+            "title": "AdminExcelExport"
+          },
+          {
+            "id": 589,
+            "title": "AdminException"
+          },
+          {
+            "id": 590,
+            "title": "GetAllWidgets"
+          },
+          {
+            "id": 591,
+            "title": "GetAllWidgetLanguages"
+          },
+          {
+            "id": 592,
+            "title": "GetWidget"
+          },
+          {
+            "id": 593,
+            "title": "CreateWidget"
+          },
+          {
+            "id": 594,
+            "title": "UpdateWidget"
+          },
+          {
+            "id": 595,
+            "title": "DeleteWidget"
+          },
+          {
+            "id": 596,
+            "title": "AdminWidget"
+          },
+          {
+            "id": 597,
+            "title": "GetAllWidgetFiles"
+          },
+          {
+            "id": 598,
+            "title": "GetAllWidgetFileLanguages"
+          },
+          {
+            "id": 599,
+            "title": "GetWidgetFile"
+          },
+          {
+            "id": 600,
+            "title": "CreateWidgetFile"
+          },
+          {
+            "id": 601,
+            "title": "UpdateWidgetFile"
+          },
+          {
+            "id": 602,
+            "title": "DeleteWidgetFile"
+          },
+          {
+            "id": 603,
+            "title": "AdminWidgetFile"
+          },
+          {
+            "id": 604,
+            "title": "GetAllNotices"
+          },
+          {
+            "id": 605,
+            "title": "GetNotice"
+          },
+          {
+            "id": 606,
+            "title": "CreateNotice"
+          },
+          {
+            "id": 607,
+            "title": "UpdateNotice"
+          },
+          {
+            "id": 608,
+            "title": "DeleteNotice"
+          },
+          {
+            "id": 609,
+            "title": "InvoiceDeliveryNote"
+          },
+          {
+            "id": 610,
+            "title": "GetAllNoticeTemplateLanguages"
+          },
+          {
+            "id": 611,
+            "title": "GetAllNoticeTemplates"
+          },
+          {
+            "id": 612,
+            "title": "GetNoticeTemplate"
+          },
+          {
+            "id": 613,
+            "title": "CreateNoticeTemplate"
+          },
+          {
+            "id": 614,
+            "title": "UpdateNoticeTemplate"
+          },
+          {
+            "id": 615,
+            "title": "DeleteNoticeTemplate"
+          },
+          {
+            "id": 616,
+            "title": "GetAllOrderComments"
+          },
+          {
+            "id": 617,
+            "title": "GetOrderComment"
+          },
+          {
+            "id": 618,
+            "title": "CreateOrderComment"
+          },
+          {
+            "id": 619,
+            "title": "UpdateOrderComment"
+          },
+          {
+            "id": 620,
+            "title": "DeleteOrderComment"
+          },
+          {
+            "id": 621,
+            "title": "AdminOrderComment"
+          },
+          {
+            "id": 622,
+            "title": "ManageGlobalOrderComment"
+          },
+          {
+            "id": 623,
+            "title": "UpdateUnit"
+          },
+          {
+            "id": 624,
+            "title": "GetAllOrderStatusHistories"
+          },
+          {
+            "id": 625,
+            "title": "CreateUnit"
+          },
+          {
+            "id": 626,
+            "title": "DeleteUnit"
+          },
+          {
+            "id": 627,
+            "title": "GetUnit"
+          },
+          {
+            "id": 628,
+            "title": "UpdateOrderSalePosition"
+          },
+          {
+            "id": 629,
+            "title": "GetAllMailLogs"
+          },
+          {
+            "id": 630,
+            "title": "AdminMailLoge"
+          },
+          {
+            "id": 631,
+            "title": "GetAllNumberSeriesTypes"
+          },
+          {
+            "id": 632,
+            "title": "GetNumberSeriesType"
+          },
+          {
+            "id": 633,
+            "title": "CreateNumberSeriesType"
+          },
+          {
+            "id": 634,
+            "title": "UpdateNumberSeriesType"
+          },
+          {
+            "id": 635,
+            "title": "DeleteNumberSeriesType"
+          },
+          {
+            "id": 636,
+            "title": "GetAllNumberSeriesPositions"
+          },
+          {
+            "id": 637,
+            "title": "GetNumberSeriesPosition"
+          },
+          {
+            "id": 638,
+            "title": "CreateNumberSeriesPosition"
+          },
+          {
+            "id": 639,
+            "title": "UpdateNumberSeriesPosition"
+          },
+          {
+            "id": 640,
+            "title": "DeleteNumberSeriesPosition"
+          },
+          {
+            "id": 641,
+            "title": "GetAllUserTBank"
+          },
+          {
+            "id": 642,
+            "title": "GetUserBank"
+          },
+          {
+            "id": 643,
+            "title": "CreateUserBank"
+          },
+          {
+            "id": 644,
+            "title": "UpdateUserBank"
+          },
+          {
+            "id": 645,
+            "title": "DeleteUserBank"
+          },
+          {
+            "id": 646,
+            "title": "CorrectionDocumentOrderCreditNote"
+          },
+          {
+            "id": 647,
+            "title": "CorrectionDocumentCancellationOrderCreditNote"
+          },
+          {
+            "id": 648,
+            "title": "CreditNoteOrderCreditNote"
+          },
+          {
+            "id": 649,
+            "title": "CreditNoteCancellationOrderCreditNote"
+          },
+          {
+            "id": 650,
+            "title": "GetAllUnit"
+          },
+          {
+            "id": 651,
+            "title": "GetAllUnits"
+          }
+        ],
+        "translate": [
+          {
+            "role_id": 1,
+            "locale": "en",
+            "title": "admin"
+          }
+        ]
+      }
+    ],
+    "baskets": {
+      "user_id": 1,
+      "status": "pending",
+      "total_price": 0,
+      "symbol": "€",
+      "user": {
+        "id": 1,
+        "avatar": null,
+        "username": "john@doe.com",
+        "email": "john@doe.com",
+        "discount_ratio": 0,
+        "payment_method_id": null,
+        "is_vat_valid": 1,
+        "communication_by_letter": false,
+        "vat_number": null,
+        "tax_number": "789",
+        "credit_limit": 123,
+        "eori_number": "789",
+        "use_gln_indocuments": true,
+        "default_shipping_method_id": 1,
+        "default_payment_terms_id": 1,
+        "file_id": null,
+        "point": null,
+        "is_active": true,
+        "_data": null,
+        "birth_date": "2022-01-15",
+        "created_at": "2021-10-01T00:32:27.000000Z",
+        "updated_at": "2022-01-19T12:22:48.000000Z",
+        "invoice_contact_group_id": 8,
+        "flag_id": null,
+        "country": {
+          "id": 83,
+          "name": "Deutschland",
+          "default_warranty_days": 14,
+          "max_tax_free_trade": null,
+          "max_small_business_trade": null,
+          "is_eeu": true,
+          "iso2": "DE",
+          "iso3": "DEU",
+          "is_active": true,
+          "is_default": true,
+          "timezone": null,
+          "currency": {
+            "name": "Euro",
+            "id": 49,
+            "ratio": 1,
+            "is_default": true,
+            "symbol": "€",
+            "iso3": "EUR",
+            "is_active": true,
+            "translate": [
+              {
+                "currency_id": 49,
+                "locale": "en",
+                "name": "Euro"
+              }
+            ]
+          },
+          "vats": [
+            {
+              "id": 2,
+              "number": "nisi",
+              "valid_from": "2021-09-30T01:00:51.000000Z",
+              "value": 0
+            },
+            {
+              "id": 3,
+              "number": "DE-7",
+              "valid_from": "2021-09-30T01:01:39.000000Z",
+              "value": 7.7
+            },
+            {
+              "id": 1,
+              "number": "DE-19",
+              "valid_from": "2021-09-30T01:00:46.000000Z",
+              "value": 19
+            }
+          ],
+          "translate": [
+            {
+              "country_id": 83,
+              "locale": "de",
+              "name": "Deutschland"
+            },
+            {
+              "country_id": 83,
+              "locale": "en",
+              "name": "Germany"
+            }
+          ]
+        },
+        "person": {
+          "id": 1,
+          "first_name": "Admin",
+          "last_name": "Admini",
+          "gender": "male",
+          "company_name": "Cleafin",
+          "created_by": null
+        },
+        "roles": [
+          {
+            "id": 1,
+            "title": "admin",
+            "company_visibility": false,
+            "owner_visibility": false,
+            "slug": "admin",
+            "translate": [
+              {
+                "role_id": 1,
+                "locale": "en",
+                "title": "admin"
+              }
+            ]
+          }
+        ],
+        "userType": {
+          "id": 1,
+          "name": "Kunden",
+          "discount_percentage": null,
+          "min_point": 23.71,
+          "bonus_type": "percentage",
+          "bonus_value": 0.5,
+          "is_generation": true,
+          "is_partner": false,
+          "period_type": "month",
+          "min_period": 9,
+          "with_number_of_generations": null,
+          "translate": [
+            {
+              "user_type_id": 1,
+              "locale": "de",
+              "name": "Kunden",
+              "description": "Kunde"
+            }
+          ]
+        }
+      },
+      "basketItems": []
+    },
+    "userType": {
+      "id": 1,
+      "name": "Kunden",
+      "discount_percentage": null,
+      "min_point": 23.71,
+      "bonus_type": "percentage",
+      "bonus_value": 0.5,
+      "is_generation": true,
+      "is_partner": false,
+      "period_type": "month",
+      "min_period": 9,
+      "with_number_of_generations": null,
+      "translate": [
+        {
+          "user_type_id": 1,
+          "locale": "de",
+          "name": "Kunden",
+          "description": "Kunde"
+        }
+      ]
+    },
+    "invoiceContactGroup": {
+      "id": 8,
+      "title": "Hamed Darehchi",
+      "country_id": 83,
+      "translate": [
+        {
+          "contact_group_id": 8,
+          "locale": "en",
+          "title": "Hamed Darehchi"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Email": "Email",
+  "Password": "Password",
+  "ForgotPassword": "Forgot Password",
+  "EmailPlaceholder": "Enter Your Email",
+  "PasswordPlaceholder": "Enter Your Password",
+
+  "Forget": {
+    "Forgot": "Forgot",
+    "ResetPassword": "Reset Password",
+    "SendLinkAgain": "Send Link Again",
+    "DidntReceiveLink": "Didn't Receive Recovery Link?",
+    "Subtitle": "We Just Need Your Registered Email Address To Send Your Password Recovery Link"
+  },
+
+  "Login": {
+    "Or": "Or",
+    "Title": "Login",
+    "ToCleafin": "To Club Admin",
+    "NoAccount": "No Account",
+    "RememberMe": "Remember Me",
+    "WelcomeBack": "Welcome Back",
+    "RegisterNow": "Register Now"
+  },
+
+  "Register": {
+    "Title": "Login",
+    "Create": "Create",
+    "SignUp": "Sign up",
+    "Country": "Country",
+    "Welcome": "Welcome",
+    "Birthday": "Birthday",
+    "Language": "Language",
+    "LastName": "Last Name",
+    "FirstName": "First Name",
+    "AnAccount": "An Account",
+    "HaveAccount": "Have Account",
+    "BirthdayPlaceholder": "Enter Youre Birthday",
+    "TermsAndConditionsText": "Terms And Conditions"
+  }
+}

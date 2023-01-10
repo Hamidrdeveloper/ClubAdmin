@@ -1,0 +1,14 @@
+{
+  "Title": "Export Log",
+  "Title_other": "Export Logs",
+
+  "Preview": "Preview",
+  "FileName": "File Name",
+  "CreatedBy": "Created By",
+  "ExportedBy": "Exported By",
+  "CreatedByID": "Created By ID",
+  "ExportedByID": "Exported By ID",
+  "FileExtension": "File Extension",
+  "ExportDataSettingID": "Export Data Setting ID",
+  "ExportDataSettingName": "Export Data Setting Name"
+}

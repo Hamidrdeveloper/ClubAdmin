@@ -1,0 +1,103 @@
+stages:
+  - build
+  - deploy
+
+Build_Dev:
+  stage: build
+  only:
+    - develop
+  script:
+    - cp $ENV_DEV .env
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE/stage:latest .
+    - docker push $CI_REGISTRY_IMAGE/stage:latest
+  tags:
+    - dev
+
+Deploy_Dev:
+  stage: deploy
+  only:
+    - develop
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $CI_REGISTRY_IMAGE/stage:latest
+    - docker rm -f dev-sale-refactor
+    - docker run -d --restart always --name dev-sale-refactor -p 127.0.0.1:8082:80 $CI_REGISTRY_IMAGE/stage:latest
+  tags:
+    - dev-front
+
+Build_Release:
+  stage: build
+  only:
+    - release
+  script:
+    - cp $ENV_RELEASE .env
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE/release:latest .
+    - docker push $CI_REGISTRY_IMAGE/release:latest
+  tags:
+    - dev
+
+Deploy_Release:
+  stage: deploy
+  only:
+    - release
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $CI_REGISTRY_IMAGE/release:latest
+    - docker rm -f release-sale-admin
+    - docker run -d --restart always --name release-sale-admin -p 127.0.0.1:8082:80 $CI_REGISTRY_IMAGE/release:latest
+  tags:
+    - release-front
+
+Build_Release_Cleafin:
+  stage: build
+  only:
+    - cleafin-release
+    - tags
+  script:
+    - cp $ENV_RELEASE_CLEAFIN .env
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE/cleafin-release:latest .
+    - docker push $CI_REGISTRY_IMAGE/cleafin-release:latest
+  tags:
+    - dev
+
+Deploy_Release_Cleafin:
+  stage: deploy
+  only:
+    - cleafin-release
+    - tags
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $CI_REGISTRY_IMAGE/cleafin-release:latest
+    - docker rm -f cleafin-release-sale-admin
+    - docker run -d --restart always --name cleafin-release-sale-admin -p 127.0.0.1:9082:80 $CI_REGISTRY_IMAGE/cleafin-release:latest
+  tags:
+    - prod-front
+
+Build_Prod:
+  stage: build
+  only:
+    - main
+    - tags
+  script:
+    - cp $ENV_PROD .env
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE/prod:$CI_COMMIT_REF_NAME .
+    - docker push $CI_REGISTRY_IMAGE/prod:$CI_COMMIT_REF_NAME
+  tags:
+    - dev
+
+Deploy_Prod:
+  stage: deploy
+  only:
+    - main
+    - tags
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $CI_REGISTRY_IMAGE/prod:$CI_COMMIT_REF_NAME
+    - docker rm -f prod-sale-admin
+    - docker run -d --restart always --name prod-sale-admin -p 127.0.0.1:8082:80 $CI_REGISTRY_IMAGE/prod:$CI_COMMIT_REF_NAME
+  tags:
+    - prod-front

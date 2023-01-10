@@ -1,0 +1,5 @@
+{
+  "Title": "ShopSettings",
+  "Route": "/websiasddasdte/shop/*",
+  "Entry": "@modules/ShopSettings/pages"
+}

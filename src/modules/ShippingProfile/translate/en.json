@@ -1,0 +1,15 @@
+{
+  "Title": "Onboarding",
+  "Title_other": "Onboarding",
+
+  "Icon": "Icon",
+  "Type": "Type",
+  "PostType": "Post",
+  "Country": "Country",
+  "FreightType": "Freight",
+  "PackageType": "Package",
+  "PartnerId": "Partner ID",
+  "SubdomainId": "Subdomain ID",
+  "TrackingLink": "Tracking Link",
+  "YourTrackingLinkShouldHaveTrackingNumberInIt": "Add '{{ TrackingNumber }}' to Your tracking link. (e.g: example.com/{{ TrackingNumber }})"
+}

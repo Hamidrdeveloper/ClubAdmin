@@ -1,0 +1,5 @@
+{
+  "Title": "Stock",
+  "Route": "/stosadsadasdcks/*",
+  "Entry": "@modules/Stock/pages"
+}

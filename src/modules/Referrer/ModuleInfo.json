@@ -1,0 +1,5 @@
+{
+  "Title": "ChantType",
+  "Route": "/Chants/type/*",
+  "Entry": "@modules/Referrer/pages"
+}

@@ -1,0 +1,9 @@
+{
+  "Title": "Barcode",
+  "Title_other": "Barcodes",
+
+  "Prefix": "Prefix",
+  "Postfix": "Postfix",
+  "GenerateBarcodes": "Generate Barcodes",
+  "Field": { "Type": "Type", "Value": "Value" }
+}

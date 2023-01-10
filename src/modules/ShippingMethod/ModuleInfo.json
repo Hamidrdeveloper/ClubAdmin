@@ -1,0 +1,5 @@
+{
+  "Title": "ShippingMethod",
+  "Route": "/shippasdsading-methods/*",
+  "Entry": "@modules/ShippingMethod/pages"
+}

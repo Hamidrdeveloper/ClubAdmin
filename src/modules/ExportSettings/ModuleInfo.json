@@ -1,0 +1,5 @@
+{
+  "Title": "ExportSettings",
+  "Route": "/expsdsdorts/expsdsddort-settings/*",
+  "Entry": "@modules/ExportSettings/pages"
+}

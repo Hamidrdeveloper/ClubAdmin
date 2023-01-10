@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "slug": "Option 1",
+      "children": []
+    },
+    {
+      "id": "2",
+      "slug": "Option 2",
+      "children": [
+        {
+          "id": "3",
+          "slug": "Option 3",
+          "children": []
+        },
+        {
+          "id": "4",
+          "slug": "Option 4",
+          "children": []
+        },
+        {
+          "id": "5",
+          "slug": "Option 5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "slug": "Option 6",
+      "children": [
+        {
+          "id": "7",
+          "slug": "Option 7",
+          "children": [
+            {
+              "id": "8",
+              "slug": "Option 8",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

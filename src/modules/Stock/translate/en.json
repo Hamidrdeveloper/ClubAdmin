@@ -1,0 +1,164 @@
+{
+  "Title": "Stock",
+  "Title_other": "Stocks",
+
+  "Priority": "Priority",
+  "Strategy": "Strategy",
+  "Conditions": "Conditions",
+  "LogisticType": "LogisticType",
+  "FreightLogistic": "Freight Logistic",
+  "InventoryMode": "Inventory Mode",
+  "WarehouseRepairId": "Warehouse Repair ID",
+  "HasDynamicReorder": "Has Dynamic Reorder",
+  "ExistsProductAvailabilityId": "Exists Product Availability ID",
+  "NotExistsProductAvailabilityId": "Not Exists Product Availability ID",
+
+  "Setting": {
+    "Fax": "Fax",
+    "Low": "Low",
+    "High": "High",
+    "Note": "Note",
+    "Town": "Town",
+    "Email": "Email",
+    "Sales": "Sales",
+    "Normal": "Normal",
+    "Medium": "Medium",
+    "Repair": "Repair",
+    "Others": "Others",
+    "Amazon": "Amazon",
+    "Street": "Street",
+    "Custom": "Custom",
+    "Sample": "Sample",
+    "Partner": "Partner",
+    "Storage": "Storage",
+    "Virtual": "Virtual",
+    "Referrer": "Referrer",
+    "Transit": "Transit",
+    "VeryLow": "Very Low",
+    "TabTitle": "Setting",
+    "Priority": "Priority",
+    "VeryHigh": "VeryHigh",
+    "Location": "Location",
+    "PostCode": "Post Code",
+    "Telephone": "Telephone",
+    "Subdomain": "Subdomain",
+    "Incendiary": "Incendiary",
+    "HouseNumber": "House Number",
+    "WarehouseId": "Warehouse ID",
+    "Refrigerator": "Refrigerator",
+    "Distribution": "Distribution",
+    "LogisticType": "LogisticType",
+    "Availability": "Availability",
+    "BasicSetting": "Basic Setting",
+    "OwnWarehouse": "Own Warehouse",
+    "LocationInfo": "Location Info",
+    "AveragePrice": "Average Price",
+    "InventoryMode": "Inventory Mode",
+    "WarehouseName": "Warehouse Name",
+    "WarehouseType": "Warehouse Type",
+    "CountriesServe": "Countries Serve",
+    "DHLFulfillment": "DHL Fulfillment",
+    "FreightLogistic": "Freight Logistic",
+    "LastInFirstOut": "Last-In, First-Out",
+    "FirstInFirstOut": "First-In, First-Out",
+    "DynamicReorderLevel": "Dynamic Reorder Level",
+    "FirstExpiredFirstOut": "First-Expired, First-Out",
+    "AvailabilityWithStock": "Availability With Stock",
+    "ExistProductAvailability": "Exist Product Availability",
+    "StandardStorageLocationType": "Standard Storage Location Type",
+    "WarehouseAssignedForRepairs": "Warehouse Assigned For Repairs",
+    "NotExistProductAvailability": "Not Exist Product Availability",
+    "SplitUpAccordingToShippingProfile": "Split Up According To Shipping Profile",
+    "SelectCountriesThisWarehouseCanSendProductsTo": "Select Countries This Warehouse Can Send Products To"
+  },
+
+  "StorageVariation": {
+    "Title": "Storage Variation",
+    "Title_other": "Storage Variations",
+
+    "Zone": "Zone",
+    "Floor": "Floor",
+    "Regal": "Regal",
+    "Shelf": "Shelf",
+    "Building": "Building",
+    "Warehouse": "Warehouse",
+    "WarehouseId": "Warehouse ID",
+    "TabTitle": "Storage Variation",
+    "VariationName": "Variation Name"
+  },
+
+  "IncomingItems": {
+    "Title": "Incoming Items",
+
+    "EXP": "EXP",
+    "Batch": "Batch",
+    "Reason": "Reason",
+    "Supplier": "Supplier",
+    "Quantity": "Quantity",
+    "Currency": "Currency",
+    "TabTitle": "Incoming Items",
+    "DeliveryDate": "Delivery Date",
+    "DeliveryNote": "Delivery Note",
+    "ExchangeRate": "Exchange Rate",
+    "PurchasePrice": "Purchase Price",
+    "ProductVariation": "Product Variation",
+    "StorageVariation": "Storage Variation",
+    "BookIncomingItems": "Book Incoming Items",
+    "UploadDeliveryNote": "Upload Delivery Note",
+    "SuggestedStorageLocation": "Suggested Storage Location"
+  },
+
+  "Inventory": {
+    "Title": "Inventory",
+    "Title_other": "Inventories",
+
+    "Net": "Net",
+    "Quantity": "Quantity",
+    "TabTitle": "Inventory",
+    "ApplyFilter": "Apply Filter",
+    "PackedQuantity": "Packed Quantity",
+    "PickedQuantity": "Picked Quantity",
+    "ReservedQuantity": "Reserved Quantity",
+    "StorageVariation": "Storage Variation",
+    "PurchaseQuantity": "Purchase Quantity",
+    "ProductVariation": "Product Variation",
+    "MinStorageQuantity": "Min Storage Quantity",
+    "StorageVariationID": "Storage Variation ID",
+    "ProductVariationID": "Product Variation ID"
+  },
+
+  "SubModules": {
+    "Building": {
+      "Title": "Building",
+      "Title_other": "Buildings",
+
+      "CreatedAt": "Created At",
+      "UpdatedAt": "Updated At",
+      "WarehouseId": "Warehouse ID"
+    },
+    "Floor": {
+      "Title": "Floor",
+      "Title_other": "Floors",
+
+      "BuildingId": "Building ID"
+    },
+    "Zone": {
+      "Title": "Zone",
+      "Title_other": "Zones",
+
+      "FloorId": "Floor ID"
+    },
+    "Regal": {
+      "Title": "Regal",
+      "Title_other": "Regals",
+
+      "ZoneId": "Zone ID"
+    },
+    "Shelf": {
+      "Title": "Shelf",
+      "Title_other": "Shelves",
+
+      "RegalId": "Regal ID"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "Title": "DocumentSettings",
+  "Route": "/documensdsdsdts/doc-settings/*",
+  "Entry": "@modules/DocumentSettings/pages"
+}

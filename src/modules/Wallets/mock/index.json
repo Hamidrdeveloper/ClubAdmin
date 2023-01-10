@@ -1,0 +1,180 @@
+{
+  "data": [
+    {
+      "id": 8,
+      "balance": "4",
+      "uuid": "c900cdb3-df77-4a37-8a9e-10bf72fadd53",
+      "created_at": "2022-07-13T08:26:11.000000Z",
+      "user": {
+        "id": 26136,
+        "avatar": null,
+        "username": "usr22@test.com",
+        "email": "usr22@test.com",
+        "discount_ratio": 0,
+        "payment_method_id": 2,
+        "is_vat_valid": 1,
+        "communication_by_letter": false,
+        "vat_number": "12345",
+        "tax_number": "999",
+        "credit_limit": 300,
+        "eori_number": null,
+        "use_gln_indocuments": null,
+        "default_shipping_method_id": 3,
+        "default_payment_terms_id": 4,
+        "file_id": null,
+        "point": null,
+        "is_active": true,
+        "_data": null,
+        "birth_date": "2004-07-13",
+        "created_at": "2022-07-12T19:39:20.000000Z",
+        "updated_at": "2022-07-13T08:33:49.000000Z",
+        "invoice_contact_group_id": 95896,
+        "flag_id": 2,
+        "dunning_level_id": null,
+        "able_to_see_downline": null,
+        "old_id": null,
+        "sponsor_id": 25914,
+        "old_sponsor_id": null,
+        "career_step_id": null,
+        "customer_step_id": null,
+        "two_factor_enable": false,
+        "partner_id": null,
+        "partner": null,
+        "person": {
+          "id": 10158,
+          "first_name": "usr22",
+          "last_name": "user",
+          "gender": "female",
+          "full_name": "usr22 user",
+          "company_name": "test company",
+          "created_by": null
+        },
+        "roles": [
+          {
+            "id": 3,
+            "title": "customer",
+            "company_visibility": true,
+            "owner_visibility": true,
+            "slug": "user",
+            "translate": [
+              {
+                "role_id": 3,
+                "locale": "en",
+                "title": "customer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "balance": "24",
+      "uuid": "035dd3f9-3dce-4f94-b277-26c0d480bff1",
+      "created_at": "2022-07-19T07:41:45.000000Z",
+      "user": {
+        "id": 19,
+        "avatar": null,
+        "username": "p.esfehani@solutions-apps.de",
+        "email": "p.esfehani@solutions-apps.de",
+        "discount_ratio": 0,
+        "payment_method_id": null,
+        "is_vat_valid": 1,
+        "communication_by_letter": true,
+        "vat_number": "555555",
+        "tax_number": "700668538",
+        "credit_limit": 1866,
+        "eori_number": "918334174",
+        "use_gln_indocuments": true,
+        "default_shipping_method_id": null,
+        "default_payment_terms_id": null,
+        "file_id": null,
+        "point": 70.43,
+        "is_active": true,
+        "_data": null,
+        "birth_date": "1997-04-28",
+        "created_at": "2022-05-02T05:55:57.000000Z",
+        "updated_at": "2022-07-02T06:48:27.000000Z",
+        "invoice_contact_group_id": 95667,
+        "flag_id": null,
+        "dunning_level_id": null,
+        "able_to_see_downline": null,
+        "old_id": null,
+        "sponsor_id": 1,
+        "old_sponsor_id": null,
+        "career_step_id": null,
+        "customer_step_id": null,
+        "two_factor_enable": false,
+        "partner_id": null,
+        "partner": null,
+        "person": {
+          "id": 19,
+          "first_name": "odit",
+          "last_name": "ut",
+          "gender": "male",
+          "full_name": "odit ut",
+          "company_name": "ducimus",
+          "created_by": null
+        },
+        "roles": [
+          {
+            "id": 1,
+            "title": "admin",
+            "company_visibility": true,
+            "owner_visibility": true,
+            "slug": "admin",
+            "translate": [
+              {
+                "role_id": 1,
+                "locale": "en",
+                "title": "admin"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "links": {
+    "first": "http://api.solutionsapps.shop/api/wallets?page=1",
+    "last": "http://api.solutionsapps.shop/api/wallets?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "http://api.solutionsapps.shop/api/wallets?page=1",
+        "label": "1",
+        "active": true
+      },
+      {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "path": "http://api.solutionsapps.shop/api/wallets",
+    "per_page": 10,
+    "to": 2,
+    "total": 2,
+    "exportColumns": [],
+    "filters": {
+      "ids": "array",
+      "holderId": "int",
+      "fullName": "string"
+    },
+    "orderByColumns": ["id", "created_at"],
+    "filterLinks": {
+      "holderId": "users"
+    }
+  }
+}

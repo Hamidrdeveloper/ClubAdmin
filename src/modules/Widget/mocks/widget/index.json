@@ -1,0 +1,168 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "slug": "product-description",
+      "is_active": true,
+      "data": null,
+      "title": "title aa",
+      "content": "content aa",
+      "created_at": "2022-01-17T14:07:24.000000Z",
+      "translate": [
+        {
+          "widget_id": 1,
+          "locale": "aa",
+          "title": "title aa",
+          "content": "content aa"
+        }
+      ],
+      "widgetFiles": [
+        {
+          "id": 1,
+          "widget_id": 1,
+          "file_id": 6,
+          "file_path": "/storage/sale-system.local/invoice/22-1-9/674132c1055f158e4bbd2b803c64c97f.pdf",
+          "is_active": true,
+          "data": null,
+          "created_at": "2022-01-18T07:16:25.000000Z",
+          "title": "title aa",
+          "content": "content aa",
+          "file": {
+            "id": 6,
+            "extension": "pdf",
+            "enabled": true,
+            "name": "674132c1055f158e4bbd2b803c64c97f",
+            "type": "public",
+            "root_file": {
+              "id": 6,
+              "path": "/storage/sale-system.local/invoice/22-1-9/674132c1055f158e4bbd2b803c64c97f.pdf",
+              "size": 36343,
+              "mime_type": "application/pdf"
+            },
+            "created_at": "2022-01-09T10:52:31.000000Z",
+            "updated_at": "2022-01-09T10:52:31.000000Z"
+          },
+          "translate": [
+            {
+              "widget_file_id": 1,
+              "locale": "aa",
+              "title": "title aa",
+              "content": "content aa"
+            },
+            {
+              "widget_file_id": 1,
+              "locale": "ab",
+              "title": "title ab",
+              "content": "content ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "categories-information",
+      "is_active": true,
+      "data": null,
+      "title": "title aa",
+      "content": "content aa",
+      "created_at": "2022-01-17T14:07:24.000000Z",
+      "translate": [
+        {
+          "widget_id": 2,
+          "locale": "aa",
+          "title": "title aa",
+          "content": "content aa"
+        }
+      ],
+      "widgetFiles": []
+    },
+    {
+      "id": 3,
+      "slug": "footer-images",
+      "is_active": true,
+      "data": null,
+      "title": null,
+      "content": null,
+      "created_at": "2022-01-17T14:07:24.000000Z",
+      "translate": [],
+      "widgetFiles": []
+    },
+    {
+      "id": 4,
+      "slug": "logo-shop",
+      "is_active": true,
+      "data": null,
+      "title": "title aa header",
+      "content": "content aa header",
+      "created_at": "2022-01-17T14:07:24.000000Z",
+      "translate": [
+        {
+          "widget_id": 4,
+          "locale": "aa",
+          "title": "title aa header",
+          "content": "content aa header"
+        },
+        {
+          "widget_id": 4,
+          "locale": "ab",
+          "title": "title ab header",
+          "content": "content ab header"
+        }
+      ],
+      "widgetFiles": []
+    },
+    {
+      "id": 5,
+      "slug": "footer-payment-logos",
+      "is_active": true,
+      "data": null,
+      "title": null,
+      "content": null,
+      "created_at": "2022-01-17T14:07:24.000000Z",
+      "translate": [],
+      "widgetFiles": []
+    }
+  ],
+  "links": {
+    "first": "http://sale-system.local:82/api/widgets?page=1",
+    "last": "http://sale-system.local:82/api/widgets?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "http://sale-system.local:82/api/widgets?page=1",
+        "label": "1",
+        "active": true
+      },
+      {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "path": "http://sale-system.local:82/api/widgets",
+    "per_page": 10,
+    "to": 5,
+    "total": 5,
+    "exportColumns": ["slug", "data", "is_active", "created_at"],
+    "filters": {
+      "ids": "array",
+      "slug": "string",
+      "isActive": "bool",
+      "title": "string",
+      "content": "string"
+    },
+    "orderByColumns": ["id", "slug", "is_active", "created_at"]
+  }
+}

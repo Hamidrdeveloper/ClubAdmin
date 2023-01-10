@@ -1,0 +1,5 @@
+{
+  "Title": "Teams",
+  "Route": "/Teams/Teams/*",
+  "Entry": "@modules/PaymentMethod/pages"
+}

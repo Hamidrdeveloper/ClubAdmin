@@ -1,0 +1,142 @@
+{
+  "name": "Hamed Rahimi",
+  "attributes": {
+    "level": 1,
+    "active": true,
+    "sponsor": "Hamed Rahimi",
+    "coach": "Alireza Golestan",
+    "email": "amr.rostam@gmail.com",
+    "avatar": "https://joeschmoe.io/api/v1/random"
+  },
+  "children": [
+    {
+      "name": "Amir Rostami",
+      "attributes": {
+        "level": 2,
+        "active": true,
+        "sponsor": "Hamed Rahimi",
+        "coach": "Alireza Golestan",
+        "email": "amr.rostam@gmail.com",
+        "avatar": "https://joeschmoe.io/api/v1/random"
+      },
+      "children": [
+        {
+          "name": "Foreman",
+          "attributes": {
+            "level": 3,
+            "active": false,
+            "sponsor": "Hamed Rahimi",
+            "coach": "Alireza Golestan",
+            "email": "amr.rostam@gmail.com",
+            "avatar": "https://joeschmoe.io/api/v1/random"
+          },
+          "children": [
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            },
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Foreman",
+          "attributes": {
+            "level": 3,
+            "active": true,
+            "sponsor": "Hamed Rahimi",
+            "coach": "Alireza Golestan",
+            "email": "amr.rostam@gmail.com",
+            "avatar": "https://joeschmoe.io/api/v1/random"
+          },
+          "children": [
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            },
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Foreman",
+          "attributes": {
+            "level": 3,
+            "active": true,
+            "sponsor": "Hamed Rahimi",
+            "coach": "Alireza Golestan",
+            "email": "amr.rostam@gmail.com",
+            "avatar": "https://joeschmoe.io/api/v1/random"
+          },
+          "children": [
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            },
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            },
+            {
+              "name": "Worker",
+              "attributes": {
+                "level": 4,
+                "active": true,
+                "sponsor": "Hamed Rahimi",
+                "coach": "Alireza Golestan",
+                "email": "amr.rostam@gmail.com",
+                "avatar": "https://joeschmoe.io/api/v1/random"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

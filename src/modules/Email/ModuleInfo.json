@@ -1,0 +1,5 @@
+{
+  "Title": "Email",
+  "Route": "emasdsdil/*",
+  "Entry": "@modules/Email/pages"
+}

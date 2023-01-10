@@ -1,0 +1,17 @@
+{
+  "Title": "DHL",
+  "Title_other": "DHL",
+
+  "Field": {
+    "ApiPassword": "Api Password",
+    "ApiUser": "Api User",
+    "DHLBusinessTestEKP": "DHL Business Test EKP",
+    "DHLBusinessTestUser": "DHL Business Test User",
+    "DHLBusinessTestUserPassword": "DHL Business Test User Password",
+    "EKP": "EKP",
+    "Signature": "Signature",
+    "TestMode": "Test Mode",
+    "User": "User",
+    "Version": "Version"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Title": "Teams",
+  "Title_other": "Teams",
+
+  "Field": {
+    "Company": "Teams",
+    "PriceId": "Teams",
+    "CompanyID": "Teams",
+    "PriceValue": "Teams",
+    "PaymentCost": "Teams",
+    "PaymentPercent": "Teams",
+    "PaymentMethodType": "Teams",
+    "IsLinkGeneratable": "Teams",
+    "PaymentMethodFileId": "Teams",
+    "PaymentMethodTypeId": "Teams",
+    "PaymentMethodTypeName": "Teams",
+    "CreatedAt": "Teams",
+    "TeamLogo": "Teams",
+    "Action": "Teams"
+
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Title": "Customer Step",
+  "Title_other": "Customer Steps",
+  "Field": {
+    "Slug": "Slug",
+    "Frontline": "Frontline",
+    "VoucherLevel": "Voucher Level",
+    "AccountMinusValue": "Account Minus Value"
+  }
+}

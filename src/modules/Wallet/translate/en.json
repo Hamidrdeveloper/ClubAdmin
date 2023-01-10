@@ -1,0 +1,10 @@
+{
+  "Title": "Wallet",
+  "Title_other": "Wallets",
+
+  "Spend": "Spend",
+  "Income": "Income",
+  "CleafinStars": "Club Admin",
+  "CurrentBalance": "Current Balance",
+  "TransactionHistory": "Transaction History"
+}

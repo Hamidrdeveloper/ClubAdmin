@@ -1,0 +1,23 @@
+{
+  "Title": "Number Series",
+  "Title_other": "Number Series",
+  "IncOnEndingNumberError": "Increment Number should be less than or equal to Ending Number!",
+
+  "Field": {
+    "Type": "Type",
+    "Name": "Name",
+    "Ratio": "Ratio",
+    "Prefix": "Prefix",
+    "Company": "Company",
+    "EndingNo": "Ending No",
+    "AllowGaps": "Allow Gaps",
+    "DateOrder": "Date Order",
+    "WarningNo": "Warning No",
+    "StartingNo": "Starting No",
+    "LastNumber": "Last Number",
+    "Description": "Description",
+    "ActiveManual": "Active Manual",
+    "AvailableFrom": "Available From",
+    "IncrementByNo": "Increment By No"
+  }
+}

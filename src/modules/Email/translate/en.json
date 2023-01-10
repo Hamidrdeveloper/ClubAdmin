@@ -1,0 +1,112 @@
+{
+  "Title": "Email",
+  "Title_other": "Emails",
+
+  "Field": {
+    "AllOutgoing": "All Outgoing Email Are Sent As Blind Copies (BCC) To Email Address Entered In The Next Line",
+    "Automatics": "Automatics",
+    "ConfirmationOfPasswordChange": "Confirmation Of Password Change",
+    "Content": "Content",
+    "CostumerRegistration": "Costumer Registration",
+    "CustomerWantsToChangeEmailAddress": "Customer Wants To Change Email Address",
+    "DeActiveBlindCopies": "DeActive Blind Copies (BCC) For Newsletter",
+    "DocumentType": "Document Type",
+    "Editor": "Editor",
+    "EmailAddress": "Email Address",
+    "Email Address": "Email Address",
+    "ApprovedPartner": "Approved Partner",
+    "OrderSalePaidEmail": "Order Sale Paid Email",
+    "UnApprovedPartner": "Un-Approved Partner",
+    "OrderSaleOverPaidEmail": "Order Sale Over Paid Email",
+    "OrderSalePartlyPaidEmail": "Order Sale Partly Paid Email",
+    "EmailAddressForBlindCopy": "Email Address For Blind Copy",
+    "EmailMessage": "EmailMessage",
+    "EmailTemplatesFromOtherUsers": "Email Templates From Other Users",
+    "Encryption": "Encryption",
+    "EnterEmailContentHere": "Enter Email Content Here",
+    "EnterEmailSubject": "Enter Email Subject",
+    "EnterName": "Enter Name",
+    "EnterOwnerId": "Enter OwnerId",
+    "EnterWhoToReply": "Enter who to reply",
+    "EnterWhoToReplyOwner": "Enter who to reply owner",
+    "ForumNotification": "Forum Notification",
+    "GeneralEmailTemplates": "General Email Templates",
+    "Host": "Host",
+    "HtmlSignature": "Html Signature",
+    "InfoService": "Info Service",
+    "LoginDetail": "Login Detail",
+    "Mode": "Mode",
+    "ModificationOfASchedulerOrder": "Modification Of A Scheduler Order",
+    "MyEmailTemplates": "My Email Templates",
+    "Name": "Name",
+    "NameOfSender": "Name Of Sender",
+    "NewOrderFromOnlineStore": "New Order from online Store",
+    "NewSchedulerOrder": "New Scheduler Order",
+    "NewsLetter": "NewsLetter",
+    "NewsLetterOpt_ln": "NewsLetter Opt_ln",
+    "NewsLetterOpt_lnConfirmation": "NewsLetterOpt_lnConfirmation",
+    "NoEncryption": " No Encryption",
+    "NotificationWhenItemIsInStock": "Notification When Item Is In Stock",
+    "OrderInvoicePdfAttachment": "Order Confirmation",
+    "TwoFactorAuthenticationEmail": "Two Factor Authentication Email",
+    "OutGoingMailServer/SmtpServer": "OutGoing Mail Server/Smtp Server",
+    "Owner": "Owner",
+    "Password": "Password",
+    "PlainText": "Plain Text",
+    "PlainTextSignature": "Plain Text Signature",
+    "PortStandardPort25": "Port (Standard Port:25)",
+    "ReplyTo": "Reply To",
+    "ResetPassword": "Reset Password Email",
+    "ResetPasswordEmail": "Reset Password Email",
+    "Sal": "Sal",
+    "SelectLanguage": "Select Language",
+    "SelectTemplateType": "Select Template Type",
+    "SelectTypeOfContent": "Select Type Of Content",
+    "SendCostumerEmailToChangePassword": "Send Costumer Email To Change Password",
+    "SendNotificationToEmailAddressWhenNewOrderIsReceived": "Send Notification To Email Address When New Order Is Received",
+    "ServiceUnits": "Service Units",
+    "Setting": "Setting",
+    "Signature": "Signature",
+    "SomethingAboutProductOrAnything": "Something About Product Or Anything...",
+    "Subject": "Subject",
+    "SyntaxEditor": "Syntax Editor",
+    "Tell-A-Friend": "Tell-A-Friend",
+    "Template": "Template",
+    "TemplateType": "Template Type",
+    "TestMode": "Test Mode",
+    "TextField": "Text Field",
+    "TextInHtmlFormat": "Text In Html Format",
+    "Tls": "TLS",
+    "UserName": "User Name",
+    "WelcomeUserRegistration": "Welcome User Registration"
+  },
+
+  "Template": {
+    "Title": "Template Settings",
+    "MessageTitle": "Template Message Settings",
+    "Form": {
+      "AnyOtherUser": "Any Other User"
+    },
+    "Loader": "Please wait ... Getting Email Templates Info"
+  },
+
+  "Automatic": {
+    "Loader": "Please wait... Getting Email Automatic Info"
+  },
+
+  "InfoService": {
+    "Loader": "Please wait ... Getting Email Service Info"
+  },
+
+  "LoginDetail": {
+    "Loader": "Please wait ... Getting Login Detail Info"
+  },
+
+  "NewsLetter": {
+    "Loader": "Please wait ... Getting News Letter Info"
+  },
+
+  "Signature": {
+    "Loader": "Please wait ... Getting Login Detail Info"
+  }
+}

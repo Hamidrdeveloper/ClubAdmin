@@ -1,0 +1,5 @@
+{
+  "Title": "Audio",
+  "Route": "/Chants/Audio/*",
+  "Entry": "@modules/Flag/pages"
+}

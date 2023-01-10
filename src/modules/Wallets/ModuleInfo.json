@@ -1,0 +1,5 @@
+{
+  "Title": "Wallets",
+  "Route": "/asasdasd/wallet/*",
+  "Entry": "@modules/Wallets/pages"
+}

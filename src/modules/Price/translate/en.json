@@ -1,0 +1,14 @@
+{
+  "Title": "Price",
+  "Title_other": "Prices",
+
+  "Field": {
+    "Interval": "Interval",
+    "CountryName": "Country",
+    "UnitPrice": "Unit Price",
+    "PriceType": "Price Type",
+    "CurrencyName": "Currency",
+    "MinQuantity": "Minimum Quantity",
+    "DisplayForNewItem": "Display For New Item"
+  }
+}

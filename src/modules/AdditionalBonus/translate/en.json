@@ -1,0 +1,13 @@
+{
+  "Title": "Additional Bonus",
+  "Title_other": "Additional Bonuses",
+  "Field": {
+    "UserType": "User Type",
+    "Point": "Point",
+    "Percent": "Percentage",
+    "CriticType": "Critic Type",
+    "MinPoint": "Min Point",
+    "CriticValue": "Critic Value",
+    "TimePeriod": "Time Period"
+  }
+}

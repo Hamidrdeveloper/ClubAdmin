@@ -1,0 +1,76 @@
+{
+  "Title": "Shop Setting",
+  "Title_other": "Shop Settings",
+
+  "Tab": {
+    "AnalyticTags": "Analytic Tags",
+    "BankAccount": "Bank Account",
+    "DHL": "DHL",
+    "DPD": "DPD",
+    "EmailAuthorization": "Email Authorization",
+    "EmailSignature": "Email Signature",
+    "NewsletterAuthorization": "Newsletter Authorization",
+    "Partner": "Partner",
+    "Paypal": "Paypal",
+    "SaleSystem": "Sale System",
+    "SocialMedia": "Social Media",
+    "Lyra": "Lyra",
+    "ExportCustom": "Export Custom",
+    "Username": "User Name",
+    "CustomExportUpdated": "Custom Export is Updated",
+    "OrderStatus": "Order Status"
+  },
+
+  "Field": {
+    "CompanyName": "Company Name",
+    "Country": "Country",
+    "Street": "Street",
+    "HouseNumber": "House Number",
+    "PostalCode": "Postal Code",
+    "City": "City",
+    "Email": "Email",
+    "PhoneNumber": "Phone Number",
+    "Fax": "Fax",
+    "BIC": "BIC",
+    "TaxNumber": "Tax Number",
+    "VATNumber": "VAT Number",
+    "Template": "Template",
+
+    "BankName": "Bank Name",
+    "BankAccountNumber": "Bank Account Number",
+    "Iban": "IBAN",
+
+    "Mode": "Mode",
+    "Name": "Name",
+    "OutgoingServer": "Outgoing Server",
+    "Username": "Username",
+    "Password": "Password",
+    "Port": "Port",
+    "Encryption": "Encryption",
+
+    "Partner": "Partner",
+    "PartnerDetail": "Partner Details",
+    "PartnerPicture": "Partner Picture",
+
+    "Paypal": {
+      "Mode": "Mode",
+      "Currency": "Currency",
+      "SandboxClientId": "Sandbox Client ID",
+      "SandboxClientSecret": "Sandbox Client Secret",
+      "ProductionClientId": "Production Client ID",
+      "ProductionClientSecret": "Production Client Secret"
+    },
+
+    "Lyra": {
+      "Mode": "Mode",
+      "Currency": "Currency",
+      "SandboxUsername": "Sandbox Username",
+      "SandboxPassword": "Sandbox Password",
+      "ProductionUsername": "Production Username",
+      "ProductionPassword": "Production Password"
+    },
+    "CommunicationByLetterPrice": "Communication By Letter Price",
+
+    "Html": "Content Body"
+  }
+}

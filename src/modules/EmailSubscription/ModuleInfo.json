@@ -1,0 +1,5 @@
+{
+  "Title": "EmailSubscription",
+  "Route": "/emsdsdail/susdsdbscription/*",
+  "Entry": "@modules/EmailSubscription/pages"
+}

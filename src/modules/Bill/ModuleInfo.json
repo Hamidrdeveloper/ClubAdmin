@@ -1,0 +1,5 @@
+{
+  "Title": "Bill",
+  "Route": "/billsdsdds/*",
+  "Entry": "@modules/Bill/pages"
+}

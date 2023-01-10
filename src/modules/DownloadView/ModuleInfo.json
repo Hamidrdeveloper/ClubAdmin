@@ -1,0 +1,5 @@
+{
+  "Title": "DownloadView",
+  "Route": "/downloasdsdds/vsddsdiew/*",
+  "Entry": "@modules/DownloadView/pages"
+}

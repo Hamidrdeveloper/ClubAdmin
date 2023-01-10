@@ -1,0 +1,15 @@
+{
+  "Title": "Package",
+  "Title_other": "Packages",
+
+  "Field": {
+    "Width": "Width",
+    "Height": "Height",
+    "Length": "Length",
+    "NetWeight": "Net Weight",
+    "GrossWeight": "Gross Weight",
+    "PackingType": "Packing Type",
+    "GrossWeightShouldBeEqualOrMoreThanNetWeight": "Gross Weight should be equal or more than Net Weight",
+    "NetWeightShouldBeEqualOrLessThanGrossWeight": "Net Weight should be equal or less than Gross Weight"
+  }
+}

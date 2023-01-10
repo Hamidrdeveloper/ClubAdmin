@@ -1,0 +1,5 @@
+{
+  "Title": "ProductCategory",
+  "Route": "/prodsadasdasducts/categories/*",
+  "Entry": "@modules/ProductCategory/pages"
+}

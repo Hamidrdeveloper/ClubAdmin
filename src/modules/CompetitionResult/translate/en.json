@@ -1,0 +1,13 @@
+{
+  "Title": "Competition Result",
+  "Title_other": "Competition Results",
+
+  "Points": "Points",
+  "CreatedAt": "Created At",
+  "UserFullName": "User Full Name",
+  "CompetitionName": "Competition Name",
+  "CompetitionRuleTitle": "Competition Rule Title",
+  "UserId": "User Id",
+  "PartnerId": "Partner Id",
+  "OrderSaleId" : "Order Id"
+}

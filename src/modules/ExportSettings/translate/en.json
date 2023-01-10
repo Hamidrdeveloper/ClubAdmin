@@ -1,0 +1,12 @@
+{
+  "Title": "Export Setting",
+  "Title_other": "Export Settings",
+
+  "Export": "Export",
+  "CreateOrder": "Create Order",
+  "Submit&Export": "Submit & Export",
+  "ExportDataType": "Export Data Type",
+  "ExportDataTypeID": "Export Data Type ID",
+  "ExportDataTypeName": "Export Data Type Name",
+  "Couldn'tCreateNewOrder": "Couldn't Create New Order"
+}

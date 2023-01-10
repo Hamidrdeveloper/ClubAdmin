@@ -1,0 +1,15 @@
+{
+  "Title": "Product Category",
+  "Title_other": "Product Categories",
+
+  "Field": {
+    "Order": "Order",
+    "Cover": "Cover",
+    "Parent": "Parent",
+    "Partner": "Partner",
+    "Language": "Language",
+    "Subdomain": "Subdomain",
+    "ShowInHeader": "Show In Header",
+    "ShowInWebsite": "Show In Website"
+  }
+}

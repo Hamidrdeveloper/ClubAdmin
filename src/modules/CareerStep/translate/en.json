@@ -1,0 +1,15 @@
+{
+  "Title": "CareerStep",
+  "Title_other": "Career Steps",
+  "CareerStepID": "Career Step ID",
+  "Slug": "Slug",
+  "MinPoint": "Min Point",
+  "Generation": "Generation",
+  "VoucherLevel": "Voucher Level",
+  "BonusValue": "Bonus Value",
+  "CareerStepBonus": "Career Step Bonus",
+  "AccountMinusValue": "Account Minus Value",
+  "PartnerDiscount": "Partner Discount",
+  "FrontLine": "Frontline",
+  "Translate": "Translate"
+}

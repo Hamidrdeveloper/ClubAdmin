@@ -1,0 +1,32 @@
+{
+  "Title": "Order Offer",
+  "Title_other": "Order Offer",
+
+  "Field": {
+    "Number": "Number",
+    "Symbol": "Symbol",
+    "UserId": "User Id",
+    "PriceId": "Price Id",
+    "Quantity": "Quantity",
+    "PaidDate": "Paid Date",
+    "PartnerId": "Partner Id",
+    "OrderDate": "Order Date",
+    "PriceValue": "Price Value",
+    "languageId": "language Id",
+    "ValidUntil": "Valid Until",
+    "Description": "Description",
+    "DeliveryDate": "Delivery Date",
+    "OutgoingItems": "Outgoing Items",
+    "PaymentTermId": "Payment Term Id",
+    "OrderStatusId": "Order Status Id",
+    "PaymentMethodId": "Payment Method Id",
+    "CustomerReference": "Customer Reference",
+    "ProductVariationId": "Product Variation Id",
+    "EstimatePaymentDate": "Estimate Payment Date",
+    "EstimateDeliveryDate": "Estimate Delivery Date",
+    "InvoiceContactGroupId": "Invoice Contact Group Id",
+    "DeliveryContactGroupId": "Delivery Contact Group Id",
+    "EarlyPaymentDiscountDays": "Early Payment Discount Days",
+    "EarlyPaymentDiscountPercentage": "Early Payment Discount Percentage"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "Title": "LoginLogs",
+    "Route": "/login/logs/*",
+    "Entry": "@modules/LoginLogs/pages"
+}

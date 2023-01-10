@@ -1,0 +1,36 @@
+{
+  "Title": "Legal Condition",
+
+  "PluralTitle": {
+    "LegalDisclosure": "Legal Disclosure",
+    "PrivacyPolicy": "Privacy Policy",
+    "ReturnForms": "Partner Agreement",
+    "ReturnsAndReplacements": "Returns and Replacements",
+    "TermConditions": "Term Conditions",
+    "UseCookies": "Use Cookies",
+    "DeliveryPolicy": "Delivery Policy",
+    "PaymentPolicy": "Payment Policy"
+  },
+
+  "Field": {
+    "Company": "Company",
+    "RolesName": "Roles Name",
+    "Description": "Description",
+    "CompanyName": "Company Name",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermConditions": "Term Conditions",
+    "Setting": "LEGAL CONDITION SETTING",
+    "LegalDisclosure": "Legal Disclosure",
+    "CancellationForms": "Cancellation Forms",
+    "CancellationRights": "Cancellation Rights"
+  },
+  "PriceIntervalTypes": {
+    "None": "None",
+    "Yearly": "Yearly",
+    "HalfYear": "Half-Year",
+    "Quarterly": "Quarterly",
+    "Monthly": "Monthly",
+    "Weekly": "Weekly",
+    "Daily": "Daily"
+  }
+}

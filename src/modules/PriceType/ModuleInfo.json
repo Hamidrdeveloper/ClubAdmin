@@ -1,0 +1,5 @@
+{
+  "Title": "Event",
+  "Route": "/Items/Event/*",
+  "Entry": "@modules/PriceType/pages"
+}

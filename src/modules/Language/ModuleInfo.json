@@ -1,0 +1,5 @@
+{
+  "Title": "Language",
+  "Route": "/setsdsdtings/langsdsduages/*",
+  "Entry": "@modules/Language/pages"
+}

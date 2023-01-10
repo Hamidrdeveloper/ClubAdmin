@@ -1,0 +1,116 @@
+{
+  "Title": "Competition",
+  "Title_other": "Competitions",
+
+  "End": "End",
+  "Total": "Total",
+  "Start": "Start",
+  "General": "General",
+  "EndDate": "End Date",
+  "Deactive": "Deactive",
+  "Previous": "Previous",
+  "Finished": "Finished",
+  "Calculate": "Calculate",
+  "Activable": "Activable",
+  "StartDate": "Start Date",
+  "isEditable": "Is Editable",
+  "Participate": "Participate",
+  "AcceptTerms": "Accept Terms",
+  "BlockedUsers": "Blocked Users",
+  "CreationDate": "Creation Date",
+  "UserBlacklist": "User Blacklist",
+  "CompetitionId": "Competition ID",
+  "RedeemRewards": "Redeem Rewards",
+  "YesParticipate": "Yes, Participate",
+  "PossibleRewards": "Possible Rewards",
+  "CompetitionName": "Competition Name",
+  "NewCompetition": "+ New Competition",
+  "NotParticipating": "Not participating",
+  "AllowedCountries": "Allowed Countries",
+  "CareerStepsAchieve": "Career Steps Achieve",
+  "CancelParticipation": "Cancel Participation",
+  "ThoseWhoHadLevelUp": "Those Who Had Level Up",
+  "CopyCompetitionToolTip": "Copy Competition",
+  "CopyCompetitionMessage": "Competition is Copeid",
+  "AllCountriesAreAllowed": "All Countries Are Allowed",
+  "YesCancelMyParticipation": "Yes, Cancel My Participation",
+  "YouAreNowParticipatingInThisCompetition": "You are now Participating in this competition",
+  "YouMustAcceptTermsAndConditionsToCancel": "You Must Accept Terms And Conditions To Cancel",
+  "YouNoLongerParticipatingInThisCompetition": "You no longer participating in this competition",
+  "YouMustAcceptTermsAndConditionsToParticipate": "You Must Accept Terms And Conditions To Participate",
+  "WrongDateMsg": "The start date should be before the end date. Please correct your dates!",
+  "AllContestParticipantsAccordingToTheRules": "All Contest Participants According To The Rules",
+  "WhenNothingSelectedAllCountriesAreAllowedToJoinCompetition": "When Nothing Selected All Countries Are Allowed To Join Competition",
+  "SendNullValueToLetAllCareerSteps": "Send null value to let all career steps achieve this competition.",
+
+  "Participant": {
+    "Title": "Participant",
+    "Title_other": "Participants"
+  },
+
+  "Rule": {
+    "Title": "Rule",
+    "Title_other": "Rules",
+
+    "Point": "Point",
+    "Country": "Country",
+    "NewRule": "New Rule",
+    "AllRules": "All Rules",
+    "RuleName": "Rule Name",
+    "RuleType": "Rule Type",
+    "CareerStep": "Career Step",
+    "CareerLevel": "Career Level",
+    "BlockedUser": "Blocked User",
+    "ReceiverType": "Receiver Type",
+    "ProductVariation": "Product Variation",
+    "AchieveCareerStep": "Achieve Career Step",
+    "MinimumOrderValue": "Minimum Order Value"
+  },
+
+  "Reward": {
+    "Title": "Reward",
+    "Title_other": "Rewards",
+
+    "Point": "Point",
+    "Points": "Points",
+    "TotalPoints": "Total Points",
+    "NewReward": "New Reward",
+    "RewardType": "Reward Type",
+    "AllRewards": "All Rewards",
+    "ProductVariation": "Product Variation"
+  },
+
+  "Attendee": {
+    "Title": "Attendee",
+    "Title_other": "Attendees",
+
+    "UserRewards": "User Rewards",
+    "RewardType": "Reward Type",
+    "UserResults": "User Results",
+    "UserRanking": "User Ranking"
+  },
+
+  "AttendeesDetail": {
+    "Title": "Attendee Detail",
+    "Title_other": "Attendee Details"
+  },
+
+  "Details": {
+    "Title": "Competition Detail",
+    "Title_other": "Competition Details",
+
+    "Publish": "Publish",
+    "Overview": "Overview",
+    "EditCompetition": "Edit Competition",
+    "TopListParticipants": "Top List Participants"
+  },
+
+  "TopParticipant": {
+    "Title": "Top Participant",
+    "Title_other": "Top Participants",
+
+    "Points": "Points",
+    "UserID": "User ID",
+    "FullName": "FullName"
+  }
+}

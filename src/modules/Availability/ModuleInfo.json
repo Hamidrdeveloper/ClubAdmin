@@ -1,0 +1,5 @@
+{
+  "Title": "Chant",
+  "Route": "/Chants/Chant/*",
+  "Entry": "@modules/Availability/pages"
+}

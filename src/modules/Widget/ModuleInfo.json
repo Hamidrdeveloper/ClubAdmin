@@ -1,0 +1,5 @@
+{
+  "Title": "Slider",
+  "Route": "/wesadsadsadbsite/*",
+  "Entry": "@modules/Widget/pages"
+}

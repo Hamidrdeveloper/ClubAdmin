@@ -1,0 +1,5 @@
+{
+  "Title": "PaymentTerm",
+  "Route": "/paymasdasdasdents/terms/*",
+  "Entry": "@modules/PaymentTerm/pages"
+}

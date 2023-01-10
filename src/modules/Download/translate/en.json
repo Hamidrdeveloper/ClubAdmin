@@ -1,0 +1,28 @@
+{
+  "Title": "Download",
+  "Title_other": "Downloads",
+  "AddSelected": "Add Selected",
+  "Category": {
+    "TabTitle": "Category",
+    "Title": "Download Category",
+    "Title_other": "Download Categories",
+
+    "Slug": "Slug",
+    "Parent": "Parent"
+  },
+
+  "File": {
+    "TabTitle": "Files",
+    "Title": "Download File",
+    "Title_other": "Download Files",
+
+    "Country": "Country",
+    "Language": "Language",
+    "FilesList": "Files List",
+    "Categories": "Categories",
+    "CareerStep": "Career Step",
+    "CustomerStep": "Customer Step",
+    "PreviewImage": "Preview Image",
+    "FileNotSelected": "File Not Selected"
+  }
+}

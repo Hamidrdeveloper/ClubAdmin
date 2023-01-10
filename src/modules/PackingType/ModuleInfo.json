@@ -1,0 +1,5 @@
+{
+  "Title": "PackingType",
+  "Route": "/producsddsasdts/packing-types/*",
+  "Entry": "@modules/PackingType/pages"
+}

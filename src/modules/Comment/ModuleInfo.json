@@ -1,0 +1,5 @@
+{
+  "Title": "Comment",
+  "Route": "/websitsdsde/commentsdsds/*",
+  "Entry": "@modules/Comment/pages"
+}

@@ -1,0 +1,37 @@
+{
+  "data": [
+    { "id": 33, "title": "Deutsch", "locale": "de", "is_ltr": true, "is_default": true, "is_active": true },
+    { "id": 116, "title": "Dutch", "locale": "nl", "is_ltr": true, "is_default": false, "is_active": true },
+    { "id": 38, "title": "English", "locale": "en", "is_ltr": true, "is_default": false, "is_active": true }
+  ],
+  "links": {
+    "first": "http://ssstg.solutions-apps.com/api/languages?page=1",
+    "last": "http://ssstg.solutions-apps.com/api/languages?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+      { "url": null, "label": "&laquo; Fr\u00fcher", "active": false },
+      { "url": "http://ssstg.solutions-apps.com/api/languages?page=1", "label": "1", "active": true },
+      { "url": null, "label": "N\u00e4chste &raquo;", "active": false }
+    ],
+    "path": "http://ssstg.solutions-apps.com/api/languages",
+    "per_page": 183,
+    "to": 3,
+    "total": 3,
+    "exportColumns": ["is_ltr", "is_active", "is_default"],
+    "filters": {
+      "title": "string",
+      "ids": "array",
+      "isLtr": "bool",
+      "isDefault": "bool",
+      "isActive": "boolean",
+      "locale": "string"
+    },
+    "orderByColumns": ["id", "is_ltr", "is_active", "is_default"]
+  }
+}

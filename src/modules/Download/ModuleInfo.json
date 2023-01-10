@@ -1,0 +1,5 @@
+{
+  "Title": "Download",
+  "Route": "/downlsdsdsdoads/*",
+  "Entry": "@modules/Download/pages"
+}
