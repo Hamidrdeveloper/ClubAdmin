@@ -99,7 +99,7 @@
       "first_name": "Admin",
       "last_name": "Admini",
       "gender": "male",
-      "company_name": "Cleafin",
+      "company_name": "ClubAdmin",
       "created_by": null
     },
     "roles": [
@@ -2820,7 +2820,7 @@
           "first_name": "Admin",
           "last_name": "Admini",
           "gender": "male",
-          "company_name": "Cleafin",
+          "company_name": "ClubAdmin",
           "created_by": null
         },
         "roles": [

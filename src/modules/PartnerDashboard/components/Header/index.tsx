@@ -1,4 +1,3 @@
-import i18n from '@src/core/i18n/config';
 import Title from 'antd/lib/typography/Title';
 import React, { ReactElement } from 'react';
 import styled from 'styled-components';
@@ -8,7 +7,7 @@ const PartnerDashHeader = (): ReactElement => {
     <MainContainer>
       <img src="/assets/favicon.ico" alt="Cleafin Logo" />
       <Title className="title" level={2}>
-        {i18n.t('Dashboards.Partner.DashboardByPartner')}
+        {"ClubAdmin"}
       </Title>
     </MainContainer>
   );

@@ -1,6 +1,6 @@
 import isWindows from 'is-windows';
 
-const defaultPort = 4000;
+const defaultPort = 3000;
 const devServerHost = isWindows() ? '127.0.0.1' : '0.0.0.0';
 
 export const devServerConfig = {

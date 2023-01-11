@@ -20,11 +20,11 @@ export const PartnerForm = ({
       form.setFieldsValue({
         ...initialValues,
         file: initialValues.partner_picture,
-        partner_detail: 'Selbständige Cleafin Partner-in',
+        partner_detail: 'Selbständige ClubAdmin Partner-in',
       });
     } else {
       form.setFieldsValue({
-        partner_detail: 'Selbständige Cleafin Partner-in',
+        partner_detail: 'Selbständige ClubAdmin Partner-in',
       });
     }
   }, [initialValues]);

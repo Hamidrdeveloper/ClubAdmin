@@ -7,9 +7,9 @@
     "react",
     "typescript"
   ],
-  "description": "Sale System Dashboard",
+  "description": "Dashboard",
   "main": "webpack.config.babel.js",
-  "author": "Amir Rostami <amr.rostam@gmail.com>",
+  "author": "HamidReza <hamidrdeveloper@gmail.com>",
   "scripts": {
     "e2e": "cypress open",
     "release": "npm version patch",
@@ -123,6 +123,7 @@
     "eslint-webpack-plugin": "~2.2.1",
     "fork-ts-checker-webpack-plugin": "^6.3.4",
     "fs": "^0.0.1-security",
+    "gh-pages": "^4.0.0",
     "html-loader": "~2.1.2",
     "html-webpack-plugin": "~5.4.0",
     "husky": "~7.0.2",
